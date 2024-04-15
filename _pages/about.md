@@ -9,8 +9,6 @@ redirect_from:
 ---
 
 
-# About me
-
 <h1>Armin Abdollahi</h1>
 <h2>Master’s Student of Artificial Intelligence</h2>
 

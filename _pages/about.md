@@ -1,22 +1,21 @@
 # About me
 
-Armin Abdollahi
+<h1>Armin Abdollahi</h1>
+<h2>Master’s Student of Artificial Intelligence</h2>
 
-Master’s Student of Artificial Intelligence
-
-## Introduction
+<h3>Introduction</h3>
 
 Hello! I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at Azad University, Tehran North Branch. My passion lies in exploring the intersection of technology and human cognition.
 
 
-## Professional Journey
+<h3>Professional Journey</h3>
 
 Bachelor’s Degree: I earned my Bachelor’s degree in Computer Engineering (Software Orientation) from Roshdiyeh University. During this time, I developed a strong foundation in programming, algorithms, and software development.
 Master’s Pursuit: My journey continued as I embarked on my Master’s in Artificial Intelligence at Azad University. Here, I’ve delved into the intricacies of machine learning, neural networks, and deep learning. Currently, I’m immersed in my thesis work, exploring novel approaches to brain-computer interfaces.
 Ph.D Aspirations: I’m actively seeking opportunities for a Ph.D. position, where I hope to contribute to cutting-edge research in AI and advance our understanding of intelligent systems.
 
 
-## Areas of Expertise
+<h3>Areas of Expertise</h3>
 My expertise spans several domains within AI:
 
 Brain-Computer Interface (BCI):
@@ -35,14 +34,14 @@ Deep Learning:
 Neural networks are at the heart of AI. I’ve worked on various deep learning architectures, including convolutional neural networks (CNNs) and recurrent neural networks (RNNs).
 
 
-## Research Interests
+<h3>Research Interests</h3>
 My ongoing research projects include:
 
 BCI Algorithms: Investigating novel algorithms for real-time brain signal classification and decoding.
 
 Healthcare Applications: Applying AI techniques to medical data, such as predicting disease outcomes or automating diagnosis.
 
-## Teaching and Mentorship
+<h3>Teaching and Mentorship</h3>
 As a Teaching Assistant, I’ve had the privilege of assisting with two courses: Signal Processing and Image Processing. I believe in fostering a collaborative learning environment and helping students discover their passion for AI.
 
 

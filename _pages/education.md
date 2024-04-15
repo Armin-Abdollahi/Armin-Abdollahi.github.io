@@ -1,3 +1,11 @@
+---
+layout: archive
+title: "Education"
+permalink: /education/
+author_profile: true
+---
+
+
 MSc in Artificial Intelligence
 Azad University
 2022 - present | Tehran, Iran

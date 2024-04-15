@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Armin's Homepage"
+title                    : "Armin Abdollahi"
 title_separator          : "-"
-name                     : &name "Armin Abdollahi"
+name                     : &name "Armin's Homepage"
 description              : &description "personal description"
 url                      : https://Armin-Abdollahi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"

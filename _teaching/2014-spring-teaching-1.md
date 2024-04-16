@@ -1,20 +1,22 @@
 ---
-title: "Teaching experience 1"
+title: "Signal Processing"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Master's course"
+permalink: /teaching/Signal-Processing
+venue: "Azad University, Tehran North Branch, Department of Electrical and Computer Science"
+date: 2023-10-01
+location: "Tehran, Iran"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Instructor: [Prof. Malihe Sabeti](https://scholar.google.com/citations?user=Qn_ik_gAAAAJ&hl=en&oi=sra)
+Sep 2023 - Sep 2024 (12 mos)
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+## Responsibilities:
+- Learning to work with the EEGLAB toolbox ([Link to YouTube](https://youtu.be/-DQS0o_t5DI?si=awLn771bZ8ISBNGv))
+- Learning to work with the MNE Library ([Link to YouTube]())
+- Designning educational materials
+- Mentoring Students
+- Helping Students with Their Assignments & Projects
+- Assisting students by identifying and resolving programming issues
+- Solving a sample exam question
+- Exam supervisor

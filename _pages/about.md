@@ -9,12 +9,7 @@ redirect_from:
 ---
 
 
-<h1>Armin Abdollahi</h1>
-<h2>Master’s Student of Artificial Intelligence</h2>
-
-<h3>Introduction</h3>
-
-Hello! I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at Azad University, Tehran North Branch. My passion lies in exploring the intersection of technology and human cognition.
+I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at Azad University, Tehran North Branch. My passion lies in exploring the intersection of technology and human cognition.
 
 
 <h3>Professional Journey</h3>

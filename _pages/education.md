@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-<img src="/images/Tehranshomallogo.png" alt="Tehranshomallogo" class="align-right" height="300px">
+<img src="/images/Tehranshomallogo.png" alt="Tehranshomallogo" class="align-right">
 # MSc in Artificial Intelligence
   Azad University
   2022 - present | Tehran, Iran
@@ -27,7 +27,7 @@ author_profile: true
 - Evolutionary Computing: 17.00/20
 - Seminar: 20/20
 
-<img src="/images/Roshdiyeh.png" alt="Roshdiyeh" class="align-right" height="150px">
+<img src="/images/Roshdiyeh.png" alt="Roshdiyeh" class="align-right">
 # B.S. in Computer Engineering
   Roshdiyeh University
   2018 - 2022 | Tabriz, Iran
@@ -38,14 +38,14 @@ author_profile: true
 - Basics of Computational Intelligence: 16/20
 - Project: 20/20
 - Data Mining: 20/20
-- Logic circuits Lab: 20/20
 - Advanced Programming Workshop: 20/20
 - Microprocessor Lab: 18/20
+- Logic circuits: 20/20
+- Logic circuits Lab: 20/20
 - Operating System: 20/20
 - Operating System Lab: 19/20
 - Computer Networks: 15/20
 - Computer Networks Lab: 20/20
 - Theory of Languages and Machines: 16/20
-- Logic circuits: 20/20
 - Algorithm Design: 16.50/20
 - Data Structures and Algorithms: 15/20

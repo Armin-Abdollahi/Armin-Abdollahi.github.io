@@ -7,6 +7,7 @@ author_profile: true
 
 
 
+![Tehranshomallogo](/images/Tehranshomallogo.png){: .align-right width="300px"}
 # MSc in Artificial Intelligence
   Azad University
   2022 - present | Tehran, Iran

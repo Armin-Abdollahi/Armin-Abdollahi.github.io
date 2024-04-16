@@ -15,6 +15,7 @@ I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at 
 <h3>Professional Journey</h3>
 
 Bachelor’s Degree: I earned my Bachelor’s degree in Computer Engineering (Software Orientation) from Roshdiyeh University. During this time, I developed a strong foundation in programming, algorithms, and software development.
+
 Master’s Pursuit: My journey continued as I embarked on my Master’s in Artificial Intelligence at Azad University. Here, I’ve delved into the intricacies of machine learning, neural networks, and deep learning. Currently, I’m immersed in my thesis work, exploring novel approaches to brain-computer interfaces.
 Ph.D Aspirations: I’m actively seeking opportunities for a Ph.D. position, where I hope to contribute to cutting-edge research in AI and advance our understanding of intelligent systems.
 

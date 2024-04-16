@@ -28,18 +28,18 @@ author_profile: true
 - Evolutionary Computing: 17.00/20
 - Seminar: 20/20
 
-B.S. in Computer Engineering
-Roshdiyeh University
-2018 - 2022 | Tabriz, Iran
-GPA: /4 (15.80/20.0)
+# B.S. in Computer Engineering
+  Roshdiyeh University
+  2018 - 2022 | Tabriz, Iran
+- **GPA:** /4 (15.80/20.0)
 
-Major-related courses:
+## Major-related courses:
 
-Linear Algebra: /20
-Algorithm Design: /20
-Signals and Systems: /20
-Data Mining: /20
-Data Structures and Algorithms: /20
-Principles & Applications of Artificial Intelligence: /20
-Linear Optimization: /20
+- Linear Algebra: /20
+- Algorithm Design: /20
+- Signals and Systems: /20
+- Data Mining: /20
+- Data Structures and Algorithms: /20
+- Principles & Applications of Artificial Intelligence: /20
+- Linear Optimization: /20
 

@@ -5,8 +5,9 @@ permalink: /education/
 author_profile: true
 ---
 
-![Tehranshomallogo](/images/Tehranshomallogo.png){: .align-right}
+
 # MSc in Artificial Intelligence
+![Tehranshomallogo](/images/Tehranshomallogo.png){: .align-right}
   Azad University
   2022 - present | Tehran, Iran
 - **GPA:** /4 (18.81/20.0)
@@ -26,8 +27,9 @@ author_profile: true
 - Evolutionary Computing: 17.00/20
 - Seminar: 20/20
 
-![Roshdiyeh](/images/Roshdiyeh.png){: .align-right}
+
 # B.S. in Computer Engineering
+![Roshdiyeh](/images/Roshdiyeh.png){: .align-right}
   Roshdiyeh University
   2018 - 2022 | Tabriz, Iran
 - **GPA:** /4 (15.80/20.0)

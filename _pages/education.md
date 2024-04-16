@@ -5,8 +5,7 @@ permalink: /education/
 author_profile: true
 ---
 
-
-<img src="/images/Tehranshomallogo.png" alt="Tehranshomallogo" class="align-right">
+![Tehranshomallogo](/images/Tehranshomallogo.png){: .align-right}
 # MSc in Artificial Intelligence
   Azad University
   2022 - present | Tehran, Iran
@@ -27,7 +26,7 @@ author_profile: true
 - Evolutionary Computing: 17.00/20
 - Seminar: 20/20
 
-<img src="/images/Roshdiyeh.png" alt="Roshdiyeh" class="align-right">
+![Roshdiyeh](/images/Roshdiyeh.png){: .align-right}
 # B.S. in Computer Engineering
   Roshdiyeh University
   2018 - 2022 | Tabriz, Iran

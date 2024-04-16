@@ -28,6 +28,7 @@ author_profile: true
 - Evolutionary Computing: 17.00/20
 - Seminar: 20/20
 
+![Roshdiyeh](/images/Roshdiyeh.png){: .align-right height="300px"}
 # B.S. in Computer Engineering
   Roshdiyeh University
   2018 - 2022 | Tabriz, Iran

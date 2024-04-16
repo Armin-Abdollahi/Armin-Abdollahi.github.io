@@ -13,14 +13,14 @@ GPA: /4 (18.81/20.0)
 
 Major-related courses:
 
-* Image Processing: 20/20
-* Signal Processing: 20/20
-  * Neural Network: 19.25/20
-* Deep Learning: 19/20
-* Machine Learning: 18.00/20
-* Computer Vision: 17.50/20
-* Pattern Recognition: 19/20
-* Evolutionary Computing: 17.00/20
+ * Image Processing: 20/20
+ * Signal Processing: 20/20
+ * Neural Network: 19.25/20
+ * Deep Learning: 19/20
+ * Machine Learning: 18.00/20
+ * Computer Vision: 17.50/20
+ * Pattern Recognition: 19/20
+ * Evolutionary Computing: 17.00/20
 
 
 B.S. in Computer Engineering

@@ -7,11 +7,11 @@ author_profile: true
 
 
 # MSc in Artificial Intelligence
-Azad University
-2022 - present | Tehran, Iran
-- **GPA**: /4 (18.81/20.0)
-- **Supervisor**: Prof. Malihe Sabrti
-- **Advisor**: Prof. Reza Boostani
+  Azad University
+  2022 - present | Tehran, Iran
+- **GPA:** /4 (18.81/20.0)
+- **Supervisor:** Prof. Malihe Sabrti
+- **Advisor:** Prof. Reza Boostani
 
 
 ## Major-related courses:
@@ -24,7 +24,7 @@ Azad University
 - Computer Vision: 17.50/20
 - Pattern Recognition: 19/20
 - Evolutionary Computing: 17.00/20
-
+- Seminar: 20/20
 
 B.S. in Computer Engineering
 Roshdiyeh University

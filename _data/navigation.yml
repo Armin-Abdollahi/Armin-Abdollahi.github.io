@@ -18,3 +18,5 @@ main:
   - title: "CV"
     url: /files/Armin_Abdollahi_CV.pdf
     
+  - title: "Certificate"
+    url: /certificate/ 

@@ -53,6 +53,6 @@ author_profile: true
 
 
 # Diploma in Mathematics and Physics
-![Amin-high-school](/images/){: .align-right}
+![Amin-high-school](/images/Amin-High-School.png){: .align-right}
   Amin High School
   2013 - 2017 | Tabriz, Iran

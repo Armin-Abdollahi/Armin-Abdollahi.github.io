@@ -22,5 +22,8 @@ Sep 2023 - Sep 2024 (12 mos)
 - Solving a sample exam question
 - Exam supervisor
 
-![](/images/EEGLAB.gif){: .align-center}
-![](/images/MNE.png){: .align-center}
+
+<a href="https://youtu.be/-DQS0o_t5DI?si=awLn771bZ8ISBNGv" target="_blank"><img src="/images/EEGLAB.gif" /></a>
+
+
+<a href="https://youtube.com/@Armin_Abdollahi?si=-6ccQZ5wIaFcjZHS" target="_blank"><img src="/images/MNE.png" /></a>

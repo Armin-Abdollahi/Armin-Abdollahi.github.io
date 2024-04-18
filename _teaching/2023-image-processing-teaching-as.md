@@ -21,4 +21,7 @@ Sep 2023 - Sep 2024 (12 mos)
 - Solving a sample exam question
 - Exam supervisor
 
-![](/images/Image-processing.png){: .align-center}
+![](){: .align-center}
+
+
+<a href="https://youtu.be/fRVrkqmvTgM?si=L71TiMJSFDOwSn3b" target="_blank"><img src="/images/Image-processing.png" /></a>

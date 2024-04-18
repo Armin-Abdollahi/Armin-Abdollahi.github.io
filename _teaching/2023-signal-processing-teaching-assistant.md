@@ -8,7 +8,7 @@ date: 2023-10-01
 location: "Tehran, Iran"
 ---
 
-Instructor: [Prof. Malihe Sabeti](https://scholar.google.com/citations?user=Qn_ik_gAAAAJ&hl=en&oi=sra)
+Instructor: [Prof. Maliheh Sabeti](https://scholar.google.com/citations?user=Qn_ik_gAAAAJ&hl=en&oi=sra)
 
 Sep 2023 - Sep 2024 (12 mos)
 

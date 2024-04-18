@@ -21,3 +21,5 @@ Sep 2023 - Sep 2024 (12 mos)
 - Assisting students by identifying and resolving programming issues
 - Solving a sample exam question
 - Exam supervisor
+
+![](/images/EEGLAB.gig){: .align-center}

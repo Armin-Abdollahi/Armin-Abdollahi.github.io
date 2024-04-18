@@ -11,7 +11,7 @@ author_profile: true
   Azad University
   2022 - present | Tehran, Iran
 - **GPA:** /4 (18.81/20.0)
-- **Supervisor:** [Prof. Maliheh Sabrti](https://scholar.google.com/citations?user=Qn_ik_gAAAAJ&hl=en&oi=sra)
+- **Supervisor:** [Prof. Maliheh Sabeti](https://scholar.google.com/citations?user=Qn_ik_gAAAAJ&hl=en&oi=sra)
 - **Advisor:** [Prof. Reza Boostani](https://scholar.google.com/citations?user=h-E-Ce4AAAAJ&hl=en)
 
 

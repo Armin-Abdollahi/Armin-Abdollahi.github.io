@@ -52,7 +52,7 @@ author_profile: true
 - Data Structures and Algorithms: 15/20
 
 
-# Diploma in Mathematics and Physics at Amin High School
+# Diploma in Mathematics and Physics
 ![Amin-high-school](/images/){: .align-right}
   Amin High School
   2013 - 2017 | Tabriz, Iran

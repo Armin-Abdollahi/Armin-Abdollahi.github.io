@@ -50,3 +50,9 @@ author_profile: true
 - Theory of Languages and Machines: 16/20
 - Algorithm Design: 16.50/20
 - Data Structures and Algorithms: 15/20
+
+
+# Diploma in Mathematics and Physics at Amin High School
+![Amin-high-school](/images/){: .align-right}
+  Amin High School
+  2013 - 2017 | Tabriz, Iran

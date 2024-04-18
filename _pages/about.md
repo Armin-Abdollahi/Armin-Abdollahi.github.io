@@ -53,4 +53,4 @@ As a Teaching Assistant, I’ve had the privilege of assisting with two courses:
 
 Let’s Connect!
 
-Feel free to reach out via email at [armin.abdollahi.64@gmail.com]("armin.abdollahi.64@gmail.com") or [a.abdollahi@iau-tnb.ac.ir]("a.abdollahi@iau-tnb.ac.ir"). You can also find me on [LinkedIn](https://www.linkedin.com/in/armin-abdollahi) and [GitHub](https://github.com/Armin-Abdollahi) for updates on my research, projects, and teaching endeavors.
+Feel free to reach out via email at <a href="mailto:armin.abdollahi.64@gmail.com">armin.abdollahi.64@gmail.com</a>. You can also find me on [LinkedIn](https://www.linkedin.com/in/armin-abdollahi) and [GitHub](https://github.com/Armin-Abdollahi) for updates on my research, projects, and teaching endeavors.

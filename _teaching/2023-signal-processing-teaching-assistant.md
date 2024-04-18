@@ -22,4 +22,4 @@ Sep 2023 - Sep 2024 (12 mos)
 - Solving a sample exam question
 - Exam supervisor
 
-![](/images/EEGLAB.gig){: .align-center}
+![](/images/EEGLAB.gif){: .align-center}

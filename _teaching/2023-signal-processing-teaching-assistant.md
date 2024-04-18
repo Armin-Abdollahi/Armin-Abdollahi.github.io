@@ -23,3 +23,4 @@ Sep 2023 - Sep 2024 (12 mos)
 - Exam supervisor
 
 ![](/images/EEGLAB.gif){: .align-center}
+![](/images/MNE.png){: .align-center}

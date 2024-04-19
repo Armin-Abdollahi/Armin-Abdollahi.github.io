@@ -5,6 +5,12 @@ permalink: /education/
 author_profile: true
 ---
 
+:: before
+<h4>MSc in Artificial Intelligence</h4>
+<h4> == $0
+  <a href="">Azad University</a>
+
+</h4>
 
 # MSc in Artificial Intelligence
 ![Tehranshomallogo](/images/Tehranshomallogo.png){: .align-right}

@@ -26,7 +26,6 @@ author_profile: true
 - Evolutionary Computing: 17.00/20
 - Seminar: 20/20
 
----
 
 # B.S. in Computer Engineering
 ![Roshdiyeh](/images/Roshdiyeh.png){: .align-right}
@@ -51,7 +50,6 @@ author_profile: true
 - Algorithm Design: 16.50/20
 - Data Structures and Algorithms: 15/20
 
----
 
 # Diploma in Mathematics and Physics
 ![Amin-high-school](/images/Amin-High-School.png){: .align-right width="275"}

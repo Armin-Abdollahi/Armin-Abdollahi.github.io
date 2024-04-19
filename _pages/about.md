@@ -24,19 +24,16 @@ Ph.D Aspirations: I’m actively seeking opportunities for a Ph.D. position, whe
 <h3>Areas of Expertise</h3>
 My expertise spans several domains within AI:
 
-Brain-Computer Interface (BCI):
-
+- Brain-Computer Interface (BCI):
 I’m fascinated by the fusion of neuroscience and technology. BCI allows us to decode brain signals and create direct communication pathways between the mind and machines.
 
-Biomedical Signal Processing:
-
+- Biomedical Signal Processing:
 Analyzing physiological signals (such as EEG or ECG) to extract meaningful information is a crucial aspect of healthcare. I’m passionate about developing signal processing techniques for medical applications.
 
-Medical Image Processing:
-
+- Medical Image Processing:
 Medical imaging plays a pivotal role in diagnosis and treatment. I explore image segmentation, feature extraction, and deep learning methods to enhance medical image analysis.
 
-Deep Learning:
+- Deep Learning:
 Neural networks are at the heart of AI. I’ve worked on various deep learning architectures, including convolutional neural networks (CNNs) and recurrent neural networks (RNNs).
 
 

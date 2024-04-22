@@ -5,7 +5,6 @@ permalink: /certificates/
 author_profile: true
 ---
 
-# Courses
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 | <a href="/images/certificat-01.png" target="_blank"><img src="/images/certificat-01.png" /></a> | <a href="/images/certificat-02.png" target="_blank"><img src="/images/certificat-02.png" /></a> | <a href="/images/certificat-03.png" target="_blank"><img src="/images/certificat-03.png" /></a> |

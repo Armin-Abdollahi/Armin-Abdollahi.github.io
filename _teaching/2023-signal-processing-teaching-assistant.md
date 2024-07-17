@@ -14,7 +14,7 @@ Sep 2023 - Sep 2024 (12 mos)
 
 ## Responsibilities:
 - Learning to work with the EEGLAB toolbox ([Link to YouTube](https://youtu.be/-DQS0o_t5DI?si=awLn771bZ8ISBNGv))
-- Learning to work with the MNE Library ([Link to YouTube]())
+- Learning to work with the MNE Library ([Link to YouTube](https://youtu.be/lEUmgSFQaAY?si=cleiGy5MDbQBQmla))
 - Designning educational materials
 - Mentoring Students
 - Helping Students with Their Assignments & Projects

@@ -23,7 +23,16 @@ Sep 2023 - Sep 2024 (12 mos)
 - Exam supervisor
 
 
-<a href="https://youtu.be/-DQS0o_t5DI?si=awLn771bZ8ISBNGv" target="_blank"><img src="/images/EEGLAB.gif" /></a>
+<a href="https://youtu.be/-DQS0o_t5DI?si=awLn771bZ8ISBNGv" target="_blank"><img src="/_teaching/EEGLAB_Trailer.mp4" /></a>
 
 
-<a href="https://youtube.com/@Armin_Abdollahi?si=-6ccQZ5wIaFcjZHS" target="_blank"><img src="/images/MNE.png" /></a>
+<a href="https://youtube.com/@Armin_Abdollahi?si=-6ccQZ5wIaFcjZHS" target="_blank"><img src="/_teaching/MNE_Trailer.mp4" /></a>
+
+
+
+## EEGLAB Trailer
+
+<video width="600" controls>
+  <source src="/_teaching/EEGLAB_Trailer.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>

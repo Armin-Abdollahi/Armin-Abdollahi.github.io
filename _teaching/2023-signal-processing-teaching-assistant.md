@@ -24,21 +24,15 @@ Sep 2023 - Sep 2024 (12 mos)
 
 
 
-
+## EEGLAB
 
 <video width="600" controls>
   <source src="https://github.com/user-attachments/assets/d268df51-3aa6-42fa-a03b-6a9c1d2c807f" type="video/mp4">
 </video>
 
 
-
-
-
-## EEGLAB
-
-https://github.com/user-attachments/assets/d268df51-3aa6-42fa-a03b-6a9c1d2c807f
-
-
 ## MNE
 
-https://github.com/user-attachments/assets/27cbb273-9423-4fb0-b6ee-36e2b89cd9e2
+<video width="600" controls>
+  <source src="https://github.com/user-attachments/assets/27cbb273-9423-4fb0-b6ee-36e2b89cd9e2" type="video/mp4">
+</video>

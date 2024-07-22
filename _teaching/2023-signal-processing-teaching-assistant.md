@@ -13,27 +13,23 @@ Instructor: [Prof. Maliheh Sabeti](https://scholar.google.com/citations?user=Qn_
 Sep 2023 - Sep 2024 (12 mos)
 
 ## Responsibilities:
-- Learning to work with the EEGLAB toolbox ([Link to YouTube](https://youtu.be/-DQS0o_t5DI?si=awLn771bZ8ISBNGv))
-- Learning to work with the MNE Library ([Link to YouTube](https://youtu.be/lEUmgSFQaAY?si=cleiGy5MDbQBQmla))
-- Designning educational materials
-- Mentoring Students
-- Helping Students with Their Assignments & Projects
-- Assisting students by identifying and resolving programming issues
-- Solving a sample exam question
-- Exam supervisor
+- Teaching how to work with the **MNE** Library ([Link to YouTube](https://youtu.be/lEUmgSFQaAY?si=cleiGy5MDbQBQmla))
+
+<video width="600" controls autoplay>
+  <source src="https://github.com/user-attachments/assets/27cbb273-9423-4fb0-b6ee-36e2b89cd9e2" type="video/mp4">
+</video>
 
 
-
-## EEGLAB
+- Teaching how to work with the **EEGLAB** toolbox ([Link to YouTube](https://youtu.be/-DQS0o_t5DI?si=awLn771bZ8ISBNGv))
 
 <video width="600" controls autoplay>
   <source src="https://github.com/user-attachments/assets/d268df51-3aa6-42fa-a03b-6a9c1d2c807f" type="video/mp4">
 </video>
 
 
-
-## MNE
-
-<video width="600" controls autoplay>
-  <source src="https://github.com/user-attachments/assets/27cbb273-9423-4fb0-b6ee-36e2b89cd9e2" type="video/mp4">
-</video>
+- Designning educational materials
+- Mentoring Students
+- Helping Students with Their Assignments & Projects
+- Assisting students by identifying and resolving programming issues
+- Solving a sample exam question
+- Exam supervisor

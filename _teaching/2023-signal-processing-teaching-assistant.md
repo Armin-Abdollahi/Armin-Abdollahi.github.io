@@ -36,6 +36,6 @@ Sep 2023 - Sep 2024 (12 mos)
 ## MNE
 
 <video width="600" controls>
-  <source src="/_teaching/MNE_Trailer.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  <source src="/_teaching/MNE_Trailer.mp4" type="video.mp4">
+  
 </video>

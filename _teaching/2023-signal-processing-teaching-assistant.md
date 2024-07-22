@@ -23,14 +23,6 @@ Sep 2023 - Sep 2024 (12 mos)
 - Exam supervisor
 
 
-
-
-<video width="600" controls>
-  <source src="/_teaching/EEGLAB_Trailer.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-
 ## EEGLAB
 
 https://github.com/user-attachments/assets/d268df51-3aa6-42fa-a03b-6a9c1d2c807f
@@ -39,14 +31,3 @@ https://github.com/user-attachments/assets/d268df51-3aa6-42fa-a03b-6a9c1d2c807f
 ## MNE
 
 https://github.com/user-attachments/assets/27cbb273-9423-4fb0-b6ee-36e2b89cd9e2
-
-
-
-
-
-<video width="600" controls>
-  <source src="[https://github.com/Armin-Abdollahi/Armin-Abdollahi.github.io/edit/master](https://github.com/Armin-Abdollahi/Armin-Abdollahi.github.io/edit/master/_teaching/_teaching/MNE_Trailer.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-

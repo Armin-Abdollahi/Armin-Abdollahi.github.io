@@ -47,7 +47,7 @@ Sep 2023 - Sep 2024 (12 mos)
 
 
 <video width="600" controls>
-  <source src="[https://raw.githubusercontent.com/Armin-Abdollahi/your-repo/main](https://github.com/Armin-Abdollahi/Armin-Abdollahi.github.io/edit/master/_teaching/_teaching/MNE_Trailer.mp4" type="video/mp4">
+  <source src="[https://github.com/Armin-Abdollahi/Armin-Abdollahi.github.io/edit/master](https://github.com/Armin-Abdollahi/Armin-Abdollahi.github.io/edit/master/_teaching/_teaching/MNE_Trailer.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

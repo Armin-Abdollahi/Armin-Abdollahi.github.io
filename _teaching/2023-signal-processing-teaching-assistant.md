@@ -23,8 +23,17 @@ Sep 2023 - Sep 2024 (12 mos)
 - Teaching how to work with the **EEGLAB** toolbox ([Link to YouTube](https://youtu.be/-DQS0o_t5DI?si=awLn771bZ8ISBNGv))
 
 <video width="600" controls autoplay muted playsinline>
-  <source src="https://github.com/user-attachments/assets/d268df51-3aa6-42fa-a03b-6a9c1d2c807f" type="video/mp4">
+  <source src="https://github.com/user-attachments/assets/96878be8-9110-4a1f-8595-e45fbfcbffda" type="video/mp4">
 </video>
+
+
+
+
+
+
+
+
+
 
 
 - Designning educational materials

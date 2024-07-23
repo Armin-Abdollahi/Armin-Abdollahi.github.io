@@ -20,17 +20,16 @@ Sep 2023 - Sep 2024 (12 mos)
 </video>
 
 
+<video width="600" controls autoplay muted playsinline>
+  <source src="https://github.com/user-attachments/assets/d1324b3f-9f2f-449b-9180-5b9c2907bf75" type="video/mp4">
+</video>
+
+
 - Teaching how to work with the **EEGLAB** toolbox ([Link to YouTube](https://youtu.be/-DQS0o_t5DI?si=awLn771bZ8ISBNGv))
 
 <video width="600" controls autoplay muted playsinline>
   <source src="https://github.com/user-attachments/assets/96878be8-9110-4a1f-8595-e45fbfcbffda" type="video/mp4">
 </video>
-
-
-
-
-
-
 
 
 

@@ -42,3 +42,6 @@ Sep 2023 - Sep 2024 (12 mos)
 - Assisting students by identifying and resolving programming issues
 - Solving a sample exam question
 - Exam supervisor
+
+
+<a href="" target="_blank"><img width="600" src="/images/MNE_Poster.jpg"/></a>

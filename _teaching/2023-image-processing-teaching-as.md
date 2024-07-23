@@ -13,15 +13,16 @@ Instructor: [Prof. Maliheh Sabeti](https://scholar.google.com/citations?user=Qn_
 Sep 2023 - Sep 2024 (12 mos)
 
 ## Responsibilities:
-- Learning to implement image process filters in MATLAB and Python ([Link to YouTube](https://youtu.be/fRVrkqmvTgM?si=L71TiMJSFDOwSn3b))
+- Teaching how to implement image processing filters in MATLAB and Python: ([Link to YouTube](https://youtu.be/fRVrkqmvTgM?si=L71TiMJSFDOwSn3b))
+
+<video width="600" controls autoplay>
+  <source src="https://github.com/user-attachments/assets/97eeee8e-c492-4c95-a973-e334e76f925a" type="video/mp4">
+</video>
+
+
 - Designning educational materials
 - Mentoring Students
 - Helping Students with Their Assignments & Projects
 - Assisting students by identifying and resolving programming issues
 - Solving a sample exam question
 - Exam supervisor
-
-![](){: .align-center}
-
-
-<a href="https://youtu.be/fRVrkqmvTgM?si=L71TiMJSFDOwSn3b" target="_blank"><img src="/images/Image-processing.png" /></a>

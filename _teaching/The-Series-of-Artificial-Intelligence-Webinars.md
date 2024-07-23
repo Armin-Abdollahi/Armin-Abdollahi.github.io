@@ -16,7 +16,11 @@ Date:
 - June 2024
 
 <video width="600" controls autoplay>
-  <source src="" type="video/mp4">
+  <source src="https://github.com/user-attachments/assets/2e86afa8-6089-447e-97c6-193699008ea9" type="video/mp4">
 </video>
 
-<a href="" target="_blank"><img src="/images/PosterWebinar.jpg"/></a>
+
+
+
+
+<a href="" target="_blank"><img width="600" src="/images/PosterWebinar.jpg"/></a>

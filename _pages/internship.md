@@ -1,10 +1,10 @@
 ---
 title: "Internship"
 collection: teaching
-type: "Master's course"
+type: "Master internship"
 permalink: /internship/
 venue: "National Brain Mapping Laboratory, Tehran, Iran"
-date: 2023-10-01
+date: 2024-08-01
 location: "Tehran, Iran"
 ---
 

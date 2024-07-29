@@ -66,25 +66,48 @@ Feel free to reach out via email at <a href="mailto:armin.abdollahi.64@gmail.com
 
 
 
-<!-- Modal -->
-<div class="modal fade" id="Franklin33" role="dialog" aria-labelledby="Franklin33Label" aria-hidden="true" tabindex="-1">
-<div class="modal-dialog" role="document">
-<div class="modal-content">
-<div class="modal-header">
-<h5 class="modal-title" id="Franklin33Label">Rob Franklin, PhD</h5>
-<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button></div>
-<div class="modal-body">
-<p>Dr. Rob Franklin obtained his Ph.D. in Electrical Engineering from the University of Michigan in Ann Arbor where he developed electrodes for in vivo neurotransmitter sensing. Rob started at Blackrock Neurotech after his PhD in 2009 in Engineering and Business Development, leading a team of engineers to design and develop implantable, wireless neural interface electronics and novel silicon electrodes for recording and stimulation in the brain. Over time, he has progressed to Director of Product Development and as of 2020 is the VP of BCI. He has been at the forefront of their clinical translation for their MoveAgain BCI system.</p>
+<div id="Infocounter" style="margin: 20px auto 0; font-size: 16px; color: #333; font-weight: bold; font-family: 'Proxima Nova Bold', sans-serif; clear: left; text-align: center; display: flex; flex-wrap: wrap; justify-content: center;">
+<div style="text-align: center; border: 1px solid #273B7B; background-color: rgb(255 255 255); padding: 10px; border-radius: 2px; justify-content: center;"><span style="font-weight: bold; display: block; font-size: 40px; color: #273b7b;">50+</span>Countries</div>
+<div style="text-align: center; border: 1px solid #273B7B; background-color: rgb(255 255 255); padding: 10px; margin: 0 15px; border-radius: 2px; justify-content: center;"><span style="font-weight: bold; display: block; font-size: 40px; color: #273b7b;">175+</span>Universities</div>
+<div style="text-align: center; border: 1px solid #273B7B; background-color: rgb(255 255 255); padding: 10px; border-radius: 2px; justify-content: center;"><span style="font-weight: bold; display: block; font-size: 40px; color: #273b7b;">6</span>Continents</div>
 </div>
 </div>
 </div>
 </div>
-<!-- Modal End--></div>
 </div>
-<div class="col-sm-3 col-xs-12">
-<div class="speaker_container">
-<div class="speaker_img-src"><img src="https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1709827435benjamin-rapoport-headshot-jpg1709827435.jpg" data-toggle="modal" data-target="#Benjamin" />
-<h4 data-toggle="modal" data-target="#Benjamin">Benjamin Rapoport, MD, PhD</h4>
-<h5>Co-Founder, Chief Science Officer <br /> <a href="https://precisionneuro.io/" target="_blank" rel="noopener noreferrer">Precision Neuroscience</a></h5>
-<div class="clearfix"></div>
 </div>
+</section>
+<section class="simple-section" id="welcome" background-color:="" fff="">
+<div class="container">
+<div class="about-wrap">
+<div class="row">
+<div class="col-md-12">
+<div class="about-right">
+<div style="margin-bottom: 0;" class="section-title white text-center">WELCOME FROM THE CHAIR</div>
+<div class="divider"></div>
+<p><span>Welcome to the first annual NeuraSeed BCI Expo 2024: A virtual world&rsquo;s fair for BCI! This conference will bring together academia and industry from around the world within the BCI space. The BCI field is rapidly advancing, making the Expo the perfect platform for future innovation and collaboration and for learning about state-of-the-art and cutting-edge research from leading companies and world-class researchers in BCI technology. We look forward to seeing you on August 2nd, 2024 and make sure to stay updated on the most recent and relevant BCI topics and conference updates in our newsletters.</span></p>
+<br />
+<p style="text-align: center !important;"><img width="200" src="https://vepimg.b8cdn.com/uploads/vjfnew/11543/uploads/vjf/content/misc/1715618559Neilank Jha111 - Retouched-Square Crop-Look Sharp Headshots (1).jpg" class="img-thumbnail" alt="" /></p>
+<p style="text-align: center !important;"><span><b> Neilank K. Jha, MD, FRCS(C), MSc, MBA </b> Executive Chairman &amp; CEO, NeuraSeed BCI<br /> Conference Chair, NeuraSeed BCI Expo</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="simple-section" id="welcome" background-color:="" eee=""><a name="about"></a>
+<div class="container">
+<div class="about-wrap">
+<div class="row">
+<div class="col-md-12">
+<div class="about-right">
+<div style="margin-bottom: 0;" class="section-title white text-center">About</div>
+<div class="divider"></div>
+<p><span>The NeuraSeed BCI Expo 24 is a virtual world&rsquo;s fair for BCI, bringing together industry professionals, academic researchers, and students across a wide range of disciplines to explore the field of Brain-Computer Interface (BCI). In one afternoon, the NeuraSeed BCI Expo 24 will feature presentations, panels, and exhibits from the top leaders who are advancing research, product development, and clinical translation for emerging applications of BCI technology. </span></p>
+<p><span>&nbsp;</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>

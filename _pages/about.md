@@ -73,10 +73,10 @@ Feel free to reach out via email at <a href="mailto:armin.abdollahi.64@gmail.com
 
 
 
-https://github.com/user-attachments/assets/51bf4ad1-5388-4763-ae7a-c45d910add64
 
-
-
+<video width="300" height="150" autoplay="autoplay" muted="" loop="loop" playsinline="">
+  <source src="https://github.com/user-attachments/assets/51bf4ad1-5388-4763-ae7a-c45d910add64" type="video/mp4">
+</video>
 
 
 

@@ -60,20 +60,48 @@ Feel free to reach out via email at <a href="mailto:armin.abdollahi.64@gmail.com
 
 
 
-<div><video width="300" height="150" id="vid" autoplay="autoplay" muted="" loop="loop" playsinline="">
-  <source src="https://github.com/user-attachments/assets/d784ff19-778e-44f2-a7d6-bd08abac7366" type="video/mp4" /></video></div>
-<section class="main_section hero pb-0">
-<div class="container-fluid">
-<div class="container main_registration_section">
-<div class="row"><!-- title --> <!-- <div class="col-sm-5"><img src="https://vepimg.b8cdn.com/uploads/vjfnew/5859/uploads/vjf/content/misc/1629371438VF-Screens.png" class="center-block img-responsive" alt="" /></div> --> <!-- form -->
-<div class="col-lg-12 col-sm-12">
-<div class="logo-wrp-content">
-<div class="logohead-baner"><img src="https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1707289203neuraseed-expo-logo-stacked-white-png1707289203.png" alt="" /></div>
-<h1 aria-label="Women in Tech Global Conference 2023" tabindex="0">A Virtual World's Fair for BCI</h1>
-<h4 aria-label="May 9-12, 2023 | 04:00 EST" tabindex="0">August 02, 2024 | 12:00 PM - 5:00 PM MST</h4>
-<div id="clockdiv"></div>
-<div class="banner-content">
-<div class="button"><a href="/en/registration-form" target="_blank" class="btn btn-white" rel="noopener noreferrer" aria-label="Click Here to Register" tabindex="0">Click Here to Register</a> <a href="/en/exhibitor-registration" target="_blank" class="btn btn-white" rel="noopener noreferrer" aria-label="Click Here to Register" tabindex="0">Exhibitor Interest</a> <!--<a href="javascript:;" data-toggle="modal" data-whatever="@LoginModal" data-target="#LoginModal" class="btn btn-white">Click Here to Access the Event</a>--></div>
-</div>
-<p class="cal" style="margin: 28px 0px 12px 0px; text-align: center; font-size: 17px; line-height: 150%; color: #fff; font-weight: bold;">Add event to calendar</p>
-<p style="margin: 0px 0px 10px 0px; text-align: center;"><a href="https://www.addevent.com/event/lt20343286+apple" title="Apple" target="_blank" style="display: inline;" rel="noopener noreferrer"><img src="https://buttons.addevent.com/atc-apple-default-r48-ico-s28.png" alt="Apple" height="28" border="0" style="height: 40px; display: inline;" /></a> <a href="https://www.addevent.com/event/lt20343286+google" title="Google" target="_blank" style="display: inline;" rel="noopener noreferrer"><img src="https://buttons.addevent.com/atc-google-default-r48-ico-s28.png" alt="Google" height="28" border="0" style="height: 40px; display: inline;" /></a> <a href="https://www.addevent.com/event/lt20343286+outlook" title="Outlook" target="_blank" style="display: inline;" rel="noopener noreferrer"><img src="https://buttons.addevent.com/atc-outlook-default-r48-ico-s28.png" alt="Outlook" height="28" border="0" style="height: 40px; display: inline;" /></a> <a href="Outlook " title="Microsoft Outlook (formerly Hotmail): Free email and calendar | Microsoft 365 " target="_blank" style="display: inline;" rel="noopener noreferrer"><img src="https://buttons.addevent.com/atc-outlookcom-default-r48-ico-s28.png" alt="Microsoft Outlook (formerly Hotmail): Free email and calendar | Microsoft 365 " height="28" border="0" style="height: 40px; display: inline;" /></a> <a href="Outlook " title="Office 365" target="_blank" style="display: inline;" rel="noopener noreferrer"><img src="https://buttons.addevent.com/atc-officecom-default-r48-ico-s28.png" alt="Office 365" height="28" border="0" style="height: 40px; display: inline;" /></a> <a href="https://www.addevent.com/event/lt20343286+yahoo" title="Yahoo" target="_blank" style="display: inline;" rel="noopener noreferrer"><img src="https://buttons.addevent.com/atc-yahoo-default-r48-ico-s28.png" alt="Yahoo" height="28" border="0" style="height: 40px; display: inline;" /></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/user-attachments/assets/51bf4ad1-5388-4763-ae7a-c45d910add64
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

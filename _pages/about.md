@@ -16,7 +16,7 @@ redirect_from:
 
 
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -29,8 +29,9 @@ redirect_from:
     <video autoplay loop muted>
       <source src="https://github.com/user-attachments/assets/a3cd25a5-74f0-4ab5-aa29-8bfa25d9b738" type="video/mp4">
     </video>
+    <h1 aria-label="Women in Tech Global Conference 2023" tabindex="0">A Virtual World's Fair for BCI</h1>
+    <h4 aria-label="May 9-12, 2023 | 04:00 EST" tabindex="0">August 02, 2024 | 12:00 PM - 5:00 PM MST</h4>
   </div>
-    
   <div class="content">
     <h1>Welcome to Our Website</h1>
     <p>Discover the beauty of our products and services.</p>

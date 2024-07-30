@@ -31,7 +31,7 @@ redirect_from:
 </div>
 </nav></div>
 </div></div></div><div><video width="300" height="150" id="vid" autoplay="autoplay" muted="" loop="loop" playsinline="">
-  <source src="https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17055697441014114229016358876753663adobestock-377086342-mp41705569744.mp4" type="video/mp4" /></video></div>
+  <source src="https://github.com/user-attachments/assets/a3cd25a5-74f0-4ab5-aa29-8bfa25d9b738" type="video/mp4" /></video></div>
 <section class="main_section hero pb-0">
 <div class="container-fluid">
 <div class="container main_registration_section">

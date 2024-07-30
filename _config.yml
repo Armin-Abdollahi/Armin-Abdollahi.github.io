@@ -16,6 +16,13 @@ url                      : https://Armin-Abdollahi.github.io # the base hostname
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Armin-Abdollahi/Armin-Abdollahi.github.io"
 
+
+<video width="1500" autoplay="autoplay" muted="" loop="loop" playsinline="">
+  <source src="https://github.com/user-attachments/assets/51bf4ad1-5388-4763-ae7a-c45d910add64" type="video/mp4">
+</video>
+
+
+
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html

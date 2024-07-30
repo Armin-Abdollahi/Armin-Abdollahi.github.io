@@ -8,6 +8,14 @@ redirect_from:
   - /about.html
 ---
 
+
+<video style="width: 100%; height: auto;" autoplay loop muted>
+  <source src="https://github.com/user-attachments/assets/a3cd25a5-74f0-4ab5-aa29-8bfa25d9b738" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
 <video width="1000" autoplay loop muted>
   <source src="https://github.com/user-attachments/assets/a3cd25a5-74f0-4ab5-aa29-8bfa25d9b738" type="video/mp4">
 </video>

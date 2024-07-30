@@ -8,48 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-
-
-
-
-<header class="w3-container w3-red w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">START PAGE</h1>
-  <p class="w3-xlarge">Template by w3.css</p>
-  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
-</header>
-
-
-
-
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video Background Website</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="video-container">
-    <video autoplay loop muted>
-      <source src="https://github.com/user-attachments/assets/a3cd25a5-74f0-4ab5-aa29-8bfa25d9b738" type="video/mp4">
-    </video>
-    <h1 aria-label="Women in Tech Global Conference 2023" tabindex="0">A Virtual World's Fair for BCI</h1>
-    <h4 aria-label="May 9-12, 2023 | 04:00 EST" tabindex="0">August 02, 2024 | 12:00 PM - 5:00 PM MST</h4>
-  </div>
-  <div class="content">
-    <h1>Welcome to Our Website</h1>
-    <p>Discover the beauty of our products and services.</p>
-    <a href="#" class="btn">Learn More</a>
-  </div>
-</body>
-</html>
-
-
-
-
-
-
-
+<video autoplay loop muted>
+  <source src="https://github.com/user-attachments/assets/a3cd25a5-74f0-4ab5-aa29-8bfa25d9b738" type="video/mp4">
+</video>
 
 I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at Azad University, Tehran North Branch. My passion lies in exploring the intersection of technology and human cognition.
 

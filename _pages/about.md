@@ -9,6 +9,43 @@ redirect_from:
 ---
 
 
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Background Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="video-container">
+    <video autoplay loop muted>
+      <source src="https://github.com/user-attachments/assets/a3cd25a5-74f0-4ab5-aa29-8bfa25d9b738" type="video/mp4">
+    </video>
+  </div>
+    
+  <div class="content">
+    <h1>Welcome to Our Website</h1>
+    <p>Discover the beauty of our products and services.</p>
+    <a href="#" class="btn">Learn More</a>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
 I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at Azad University, Tehran North Branch. My passion lies in exploring the intersection of technology and human cognition.
 
 

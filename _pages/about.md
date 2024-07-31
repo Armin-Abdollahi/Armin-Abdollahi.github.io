@@ -53,21 +53,3 @@ redirect_from:
 <center>
   <img src="https://github.com/user-attachments/assets/36bbc47d-6e87-4e53-a2da-55f3adfabf7f">
 </center>
-
-
-
-<h3>Research Interests</h3>
-My ongoing research projects include:
-
-BCI Algorithms: Investigating novel algorithms for real-time brain signal classification and decoding.
-
-Healthcare Applications: Applying AI techniques to medical data, such as predicting disease outcomes or automating diagnosis.
-
-
-
-
-Let’s Connect!
-
-Feel free to reach out via email at <a href="mailto:armin.abdollahi.64@gmail.com">armin.abdollahi.64@gmail.com</a>. You can also find me on [LinkedIn](https://www.linkedin.com/in/armin-abdollahi) and [GitHub](https://github.com/Armin-Abdollahi) for updates on my research, projects, and teaching endeavors.
-
-

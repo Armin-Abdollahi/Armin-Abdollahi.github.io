@@ -14,16 +14,61 @@ redirect_from:
 </video>
 
 
+<center>
+  <h5>
+    ## About me
+  </h5>
+</center>
 
 
-## About me
-<center><h5> hi </h5></center>
 I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at Azad University, Tehran North Branch. My passion lies in exploring the intersection of technology and human cognition.
 
 
 <h3>Professional Journey</h3>
 
-<p text-align: justify>Bachelor’s Degree: I earned my Bachelor’s degree in Computer Engineering (Software Orientation) from Roshdiyeh University. During this time, I developed a strong foundation in programming, algorithms, and software development.</p>
+<p>
+  Bachelor’s Degree: I earned my Bachelor’s degree in Computer Engineering (Software Orientation) from Roshdiyeh University. During this time, I developed a strong foundation in programming, algorithms, and software development.
+</p>
+
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justified Text Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        .justified-text {
+            text-align: justify;
+            text-justify: inter-word;
+            max-width: 600px; /* Limit width for better readability */
+            margin: auto; /* Center the text block */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+
+
+
+
+
+
+
+
+
+
 
 
 Master’s Pursuit: My journey continued as I embarked on my Master’s in Artificial Intelligence at Azad University. Here, I’ve delved into the intricacies of machine learning, neural networks, and deep learning. Currently, I’m immersed in my thesis work, exploring novel approaches to brain-computer interfaces.

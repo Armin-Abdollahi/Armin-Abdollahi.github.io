@@ -9,8 +9,6 @@ redirect_from:
 ---
 
 
-
-
 <video width="1000" autoplay loop muted>
   <source src="https://github.com/user-attachments/assets/07c1bec4-b9b0-489c-b48d-7e372e323bca" type="video/mp4">
 </video>
@@ -19,7 +17,7 @@ redirect_from:
 
 
 ## About me
-
+<h5  align-items: center;>hi</h5>
 I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at Azad University, Tehran North Branch. My passion lies in exploring the intersection of technology and human cognition.
 
 

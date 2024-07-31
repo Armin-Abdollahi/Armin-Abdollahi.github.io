@@ -26,8 +26,14 @@ redirect_from:
 
 </center>
 
+
+<style>
+    img {
+  border-radius: 50%;
+  }
+</style>
 <center>
-  <img src="https://github.com/user-attachments/assets/7d7f2ec5-8ae3-4f59-912c-d1b092771aff"  width="260">
+  <img src="github.com/user-attachments/assets/7d7f2ec5-8ae3-4f59-912c-d1b092771aff" width="260">
 </center>
 
 

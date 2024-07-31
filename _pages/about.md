@@ -15,9 +15,9 @@ redirect_from:
 
 
 <center>
-  <h5>
-    ## About me
-  </h5>
+  <h1>
+    About me
+  </h1>
 </center>
 
 

@@ -27,14 +27,23 @@ redirect_from:
 </center>
 
 
+
+
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-    img {
+img {
   border-radius: 50%;
-  }
+}
 </style>
-<center>
-  <img src="github.com/user-attachments/assets/7d7f2ec5-8ae3-4f59-912c-d1b092771aff" width="260">
-</center>
+</head>
+<body>
+<img src="github.com/user-attachments/assets/7d7f2ec5-8ae3-4f59-912c-d1b092771aff" alt="Avatar" style="width:260px">
+</body>
+</html> 
+
 
 
 <center>

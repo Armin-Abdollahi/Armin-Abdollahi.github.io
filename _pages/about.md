@@ -37,9 +37,9 @@ redirect_from:
   <style>
     .avatar {
       vertical-align: middle;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      border-radius: 250%;
     }
   </style>
   

@@ -77,8 +77,7 @@ BCI Algorithms: Investigating novel algorithms for real-time brain signal classi
 
 Healthcare Applications: Applying AI techniques to medical data, such as predicting disease outcomes or automating diagnosis.
 
-<h3>Teaching and Mentorship</h3>
-As a Teaching Assistant, I’ve had the privilege of assisting with two courses: Signal Processing and Image Processing. I believe in fostering a collaborative learning environment and helping students discover their passion for AI.
+
 
 
 Let’s Connect!

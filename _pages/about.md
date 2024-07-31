@@ -33,27 +33,26 @@ I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at 
 
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bachelor’s Degree: I earned my Bachelor’s degree in Computer Engineering (Software Orientation) from Roshdiyeh University. During this time, I developed a strong foundation in programming, algorithms, and software development.</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f9f9f9;
-        }
-        .justified-text {
-            text-align: justify;
-            text-justify: inter-word;
-            max-width: 600px; /* Limit width for better readability */
-            margin: auto; /* Center the text block */
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-    </style>
+  <title>Bachelor’s Degree: I earned my Bachelor’s degree in Computer Engineering (Software Orientation) from Roshdiyeh University. During this time, I developed a strong foundation in programming, algorithms, and software development.
+  </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+    .justified-text {
+      text-align: justify;
+      text-justify: inter-word;
+      max-width: 600px; /* Limit width for better readability */
+      margin: auto; /* Center the text block */
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+  </style>
 </head>
 </html>
 

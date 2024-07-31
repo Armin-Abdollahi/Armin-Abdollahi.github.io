@@ -8,12 +8,12 @@ author_profile: true
 
 
 
-## Title:
+## Thesis:
 Developing Transformer based Deep Learning model for Signal Decoding in Brain Computer Interface
 
 - **Summary:** In Preparation
 
-- **Description:** My master thesis
+- **Description:** 
 
 
 

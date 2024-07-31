@@ -30,19 +30,19 @@ redirect_from:
 
 
 <div>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-img {
-  border-radius: 50%;
-}
-</style>
-</head>
-<body>
-<img src="github.com/user-attachments/assets/7d7f2ec5-8ae3-4f59-912c-d1b092771aff" style="width:260px">
-</body>
-</html> 
+  <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+        img {
+          border-radius: 50%;
+        }
+      </style>
+    </head>
+    <body>
+      <img src="github.com/user-attachments/assets/7d7f2ec5-8ae3-4f59-912c-d1b092771aff" style="width:260px">
+    </body>
+  </html>
 </div>
 
 

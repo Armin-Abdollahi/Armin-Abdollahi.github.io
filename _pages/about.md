@@ -279,35 +279,38 @@ redirect_from:
                     </select>
                     </div>
                 </div>
-                <div data-collaboration-title="{count}  research outputs of {source} And {target}" id="researchNetworkDetails">
-                    <div class="help">
-                        <p>
-                            Click on a line in the diagram to see collaboration details.
-                        </p>
-                        <p>
-                            Click icons to see information about the content.
-                        </p>
-                    </div>
-                </div>
-            </div>
+                
+                
+                
+<div data-collaboration-title="{count}  research outputs of {source} And {target}" id="researchNetworkDetails">
+    <div class="help">
+        <p>
+            Click on a line in the diagram to see collaboration details.
+        </p>
+        <p>
+            Click icons to see information about the content.
+        </p>
+    </div>
+</div>
+</div>
             
-            <div id="researchNetworkDiagram">
-                <div data-message="{count} results match the filters. This many results may slow your browser to a crawl." id="researchNetworkSizeWarning" style="display: none;">
-                    <span class="message"></span> <a href="javascript://" id="researchNetworkSizeAccept">Show the results anyway</a>
-                </div>
-                <!--<link href="https://asu.pure.elsevier.com/assets/platform/pure-font/style-4b04b626754f0448e0b501b273532fc0.css" rel="stylesheet">-->
-                <div class="portal_diagram portal_diagram_adaptive portal_diagram_hideedgelabels portal_diagram_drawing_size1" id="diagram">
-                    <div class="portal_diagram_bar"><span class="portal_diagram_layouts"><a href="javascript://" rel="force">Force</a><a href="javascript://" rel="circle">Circle</a></span><span class="portal_diagram_navigation"><a href="javascript://" rel="zoom_in">In</a><a href="javascript://" rel="zoom_out">Out</a></span><span class="portal_diagram_actions"><a href="javascript://" rel="play">Play</a></span></div>
-                    <div class="portal_diagram_drawing"></div>
-                    <div class="portal_diagram_controls">
-                        <div class="portal_diagram_controls_search">
-                            <i class="icon icon-magnifying-glass"></i>
-                            <input id="diagramSearch" aria-label="Enter" search="" terms...="" autocomplete="off" spellcheck="false" type="text">
-                        </div>
-                        <div class="portal_diagram_controls_searchresult"></div>
-                    </div>
-                </div>
+<div id="researchNetworkDiagram">
+    <div data-message="{count} results match the filters. This many results may slow your browser to a crawl." id="researchNetworkSizeWarning" style="display: none;">
+        <span class="message"></span> <a href="javascript://" id="researchNetworkSizeAccept">Show the results anyway</a>
+    </div>
+    <!--<link href="https://asu.pure.elsevier.com/assets/platform/pure-font/style-4b04b626754f0448e0b501b273532fc0.css" rel="stylesheet">-->
+    <div class="portal_diagram portal_diagram_adaptive portal_diagram_hideedgelabels portal_diagram_drawing_size1" id="diagram">
+        <div class="portal_diagram_bar"><span class="portal_diagram_layouts"><a href="javascript://" rel="force">Force</a><a href="javascript://" rel="circle">Circle</a></span><span class="portal_diagram_navigation"><a href="javascript://" rel="zoom_in">In</a><a href="javascript://" rel="zoom_out">Out</a></span><span class="portal_diagram_actions"><a href="javascript://" rel="play">Play</a></span></div>
+        <div class="portal_diagram_drawing"></div>
+        <div class="portal_diagram_controls">
+            <div class="portal_diagram_controls_search">
+                <i class="icon icon-magnifying-glass"></i>
+                <input id="diagramSearch" aria-label="Enter" search="" terms...="" autocomplete="off" spellcheck="false" type="text">
             </div>
-            
+            <div class="portal_diagram_controls_searchresult"></div>
         </div>
-    </section>
+    </div>
+</div>
+            
+</div>
+</section>

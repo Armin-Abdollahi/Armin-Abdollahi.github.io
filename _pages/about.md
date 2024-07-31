@@ -28,8 +28,22 @@ redirect_from:
 
 
 
+
+
+
+
+
 <center>
-  <img src="github.com/user-attachments/assets/7d7f2ec5-8ae3-4f59-912c-d1b092771aff" style="width:260px">
+  <style>
+    .avatar {
+      vertical-align: middle;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  </style>
+  
+  <img src="https://github.com/user-attachments/assets/7d7f2ec5-8ae3-4f59-912c-d1b092771aff" alt="Avatar" class="avatar">
 </center>
 
 

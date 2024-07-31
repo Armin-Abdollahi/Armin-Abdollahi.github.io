@@ -29,7 +29,7 @@ Bone age estimation with convolutional neural network
 
 - **Description:** Estimation of bone age using X-Ray images with the Convolutional Neural Network
 
-- **Related link:** https://github.com/Armin-Abdollahi/Bone-Age-Estimation
+- **Related link:** [Repository](https://github.com/Armin-Abdollahi/Bone-Age-Estimation)
 
 
 

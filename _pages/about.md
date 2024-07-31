@@ -24,10 +24,11 @@ redirect_from:
     I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at Azad University, Tehran North Branch. My passion lies in exploring the intersection of technology and human cognition.
   </p>
 
+</center>
 
 ![IMG_20240516_134616](https://github.com/user-attachments/assets/447f1b46-08b0-4c93-a82c-5acf699c9e58)
 
-
+<center>
   <h2>Professional Journey</h2>
   
   <p>Bachelor’s Degree: I earned my Bachelor’s degree in Computer Engineering (Software Orientation) from Roshdiyeh University. During this time, I developed a strong foundation in programming, algorithms, and software development.
@@ -42,6 +43,7 @@ redirect_from:
   </p>
 
 </center>
+
 
 
 

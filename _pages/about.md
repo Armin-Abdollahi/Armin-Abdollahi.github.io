@@ -55,24 +55,6 @@ redirect_from:
 
 
 
-
-
-<h3>Areas of Expertise</h3>
-<p>My expertise spans several domains within AI:</p>
-
-- **Brain-Computer Interface (BCI):**
-I’m fascinated by the fusion of neuroscience and technology. BCI allows us to decode brain signals and create direct communication pathways between the mind and machines.
-
-- **Biomedical Signal Processing:**
-Analyzing physiological signals (such as EEG or ECG) to extract meaningful information is a crucial aspect of healthcare. I’m passionate about developing signal processing techniques for medical applications.
-
-- **Medical Image Processing:**
-Medical imaging plays a pivotal role in diagnosis and treatment. I explore image segmentation, feature extraction, and deep learning methods to enhance medical image analysis.
-
-- **Deep Learning:**
-Neural networks are at the heart of AI. I’ve worked on various deep learning architectures, including convolutional neural networks (CNNs) and recurrent neural networks (RNNs).
-
-
 <h3>Research Interests</h3>
 My ongoing research projects include:
 

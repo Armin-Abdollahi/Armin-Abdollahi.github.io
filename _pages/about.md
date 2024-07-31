@@ -25,7 +25,7 @@ redirect_from:
   </p>
 
 
-  ![IMG_20240516_134616](https://github.com/user-attachments/assets/447f1b46-08b0-4c93-a82c-5acf699c9e58)
+![IMG_20240516_134616](https://github.com/user-attachments/assets/447f1b46-08b0-4c93-a82c-5acf699c9e58)
 
 
   <h2>Professional Journey</h2>

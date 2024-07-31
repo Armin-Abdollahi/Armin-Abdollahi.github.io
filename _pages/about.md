@@ -27,8 +27,8 @@ redirect_from:
 </center>
 
 
-<center width="200">
-  ![IMG_20240516_134616](https://github.com/user-attachments/assets/447f1b46-08b0-4c93-a82c-5acf699c9e58)
+<center>
+  <img src="https://github.com/user-attachments/assets/447f1b46-08b0-4c93-a82c-5acf699c9e58">
 </center>
 
 

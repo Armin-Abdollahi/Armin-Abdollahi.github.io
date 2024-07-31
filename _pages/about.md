@@ -314,3 +314,76 @@ redirect_from:
             
 </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function getConcepts1() {
+            new portal.Diagram({name:'researchNetworkDiagram', element:'#diagram', searchElement:'#diagramSearch', adaptive:true, highlightedLinkColor:'#b6c3dc'});
+            new portal.NetworkRelations({
+                'name':'researchNetwork',
+                'graphAjaxUrl': "https://profile.shirazu.ac.ir/en/teachers?p_p_auth=V4aGYK1I&p_p_id=eduteacherdisplay_WAR_edumanagerportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=1&_eduteacherdisplay_WAR_edumanagerportlet_teacherId=26433&_eduteacherdisplay_WAR_edumanagerportlet_teacherArticleId=&_eduteacherdisplay_WAR_edumanagerportlet_PersonalPageAddress=&_eduteacherdisplay_WAR_edumanagerportlet_PersonalPageScreenName=rboostani&_eduteacherdisplay_WAR_edumanagerportlet_teacherUserId=26426&_eduteacherdisplay_WAR_edumanagerportlet_pureSection=network&_eduteacherdisplay_WAR_edumanagerportlet_mvcPath=%2Fedu-teacher-display%2Fview_teacher.jsp",
+                'edgeAjaxUrl':"https://profile.shirazu.ac.ir/en/teachers?p_p_auth=V4aGYK1I&p_p_id=eduteacherdisplay_WAR_edumanagerportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=1&_eduteacherdisplay_WAR_edumanagerportlet_teacherId=26433&_eduteacherdisplay_WAR_edumanagerportlet_teacherArticleId=&_eduteacherdisplay_WAR_edumanagerportlet_PersonalPageAddress=&_eduteacherdisplay_WAR_edumanagerportlet_PersonalPageScreenName=rboostani&_eduteacherdisplay_WAR_edumanagerportlet_teacherUserId=26426&_eduteacherdisplay_WAR_edumanagerportlet_pureSection=network&_eduteacherdisplay_WAR_edumanagerportlet_mvcPath=%2Fedu-teacher-display%2Fview_teacher.jsp"
+            }).show(['persons','externalpersons']);
+        }
+    function getConcepts() {
+    var person = $('#family_person').is(":checked");
+    var org = $('#family_organisation').is(":checked");
+    var ext_person = $('#family_externalperson').is(":checked");
+    var showCount = $('#showCounts').is(":checked");
+    var startYear =$('#startYear').val();
+    var endYear =$('#endYear').val();
+    var minCol =$('#minCollaborationCount').val()
+    $.ajax({
+    url: "https://profile.shirazu.ac.ir/en/teachers?p_p_auth=V4aGYK1I&p_p_id=eduteacherdisplay_WAR_edumanagerportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=1&_eduteacherdisplay_WAR_edumanagerportlet_teacherId=26433&_eduteacherdisplay_WAR_edumanagerportlet_teacherArticleId=&_eduteacherdisplay_WAR_edumanagerportlet_PersonalPageAddress=&_eduteacherdisplay_WAR_edumanagerportlet_PersonalPageScreenName=rboostani&_eduteacherdisplay_WAR_edumanagerportlet_teacherUserId=26426&_eduteacherdisplay_WAR_edumanagerportlet_pureSection=network&_eduteacherdisplay_WAR_edumanagerportlet_mvcPath=%2Fedu-teacher-display%2Fview_teacher.jsp",
+    data: {
+        'cmd':'network',
+        'teacherId':'26433',
+        'person': person,
+        'organisation':org,
+        'externalperson' : ext_person,
+        'startYear' : startYear,
+        'endYear' : endYear,
+        'collMin' : minCol
+    }, // sort by #
+    beforeSend : function () {
+    },
+    success: function (result) {
+//        result = jQuery.parseJSON(result);
+        new portal.Diagram({name:'researchNetworkDiagram', element:'#diagram', searchElement:'#diagramSearch', adaptive:true, highlightedLinkColor:'#b6c3dc'});
+        new portal.NetworkRelations({
+            'name':'researchNetwork',
+            'graphAjaxUrl': "../../data/edu/10132/resume/20171231083947840NGTSWMJP.json",
+            'edgeAjaxUrl': "https://asu.pure.elsevier.com/en/persons/440f7ae2-2233-4060-855c-c2a25188e2fe/network-relations-edge-json/"
+        }).show(['persons','externalpersons']);
+    }
+    });
+    }
+        setTimeout(function() {
+            getConcepts1();
+        }, 500);
+
+    return false;
+    });
+</script>

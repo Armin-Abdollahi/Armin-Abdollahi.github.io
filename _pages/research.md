@@ -50,4 +50,12 @@ Hydrocephalus classification using deep learning
 
 
 
+<div class="portal_diagram_icon"><span class="portal_icon icon-person"></span><strong><span>Reza Boostani</span></strong></div>
+
+
+
+<div class="portal_diagram_shape portal_diagram_shape_selected" style="transform: translateX(4883px) translateY(5000px);"><div class="portal_diagram_icon"><span class="portal_icon icon-externalperson"></span><strong><span>Malihe Sabeti</span></strong></div></div>
+
+
+
 

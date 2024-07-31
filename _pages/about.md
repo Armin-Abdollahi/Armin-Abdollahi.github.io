@@ -17,7 +17,7 @@ redirect_from:
 
 
 ## About me
-<h5  align-items: center;>hi</h5>
+<center><h5> hi </h5></center>
 I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at Azad University, Tehran North Branch. My passion lies in exploring the intersection of technology and human cognition.
 
 

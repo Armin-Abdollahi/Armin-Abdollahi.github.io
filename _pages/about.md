@@ -28,7 +28,7 @@ redirect_from:
 
 
 <center>
-  <img src="https://github.com/user-attachments/assets/447f1b46-08b0-4c93-a82c-5acf699c9e58">
+  <img src="https://github.com/user-attachments/assets/447f1b46-08b0-4c93-a82c-5acf699c9e58"  width="200">
 </center>
 
 

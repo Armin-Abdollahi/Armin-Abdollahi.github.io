@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-<video width="800" autoplay loop muted>
+<video width="750" autoplay loop muted>
   <source src="https://github.com/user-attachments/assets/07c1bec4-b9b0-489c-b48d-7e372e323bca" type="video/mp4">
 </video>
 
@@ -21,6 +21,8 @@ redirect_from:
   <p>
     I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at Azad University, Tehran North Branch. My passion lies in exploring the intersection of technology and human cognition.
   </p>
+
+  
 </center>
 
 
@@ -29,15 +31,15 @@ redirect_from:
 
 <h3>Professional Journey</h3>
 
-Bachelor’s Degree: I earned my Bachelor’s degree in Computer Engineering (Software Orientation) from Roshdiyeh University. During this time, I developed a strong foundation in programming, algorithms, and software development.
+<p>Bachelor’s Degree: I earned my Bachelor’s degree in Computer Engineering (Software Orientation) from Roshdiyeh University. During this time, I developed a strong foundation in programming, algorithms, and software development.
 
 Master’s Pursuit: My journey continued as I embarked on my Master’s in Artificial Intelligence at Azad University. Here, I’ve delved into the intricacies of machine learning, neural networks, and deep learning. Currently, I’m immersed in my thesis work, exploring novel approaches to brain-computer interfaces.
 
-Ph.D Aspirations: I’m actively seeking opportunities for a Ph.D. position, where I hope to contribute to cutting-edge research in AI and advance our understanding of intelligent systems.
+Ph.D Aspirations: I’m actively seeking opportunities for a Ph.D. position, where I hope to contribute to cutting-edge research in AI and advance our understanding of intelligent systems.</p>
 
 
 <h3>Areas of Expertise</h3>
-My expertise spans several domains within AI:
+<p>My expertise spans several domains within AI:</p>
 
 - **Brain-Computer Interface (BCI):**
 I’m fascinated by the fusion of neuroscience and technology. BCI allows us to decode brain signals and create direct communication pathways between the mind and machines.

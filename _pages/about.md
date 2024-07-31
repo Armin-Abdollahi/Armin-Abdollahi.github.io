@@ -33,8 +33,7 @@ I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at 
 
 
 
-
-
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,7 +57,7 @@ I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at 
         }
     </style>
 </head>
-
+</html>
 
 
 

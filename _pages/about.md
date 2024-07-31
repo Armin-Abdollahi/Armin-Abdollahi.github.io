@@ -26,9 +26,7 @@ I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at 
 
 <h3>Professional Journey</h3>
 
-<p>
-  Bachelor’s Degree: I earned my Bachelor’s degree in Computer Engineering (Software Orientation) from Roshdiyeh University. During this time, I developed a strong foundation in programming, algorithms, and software development.
-</p>
+
 
 
 
@@ -37,7 +35,7 @@ I’m Armin Abdollahi, a Master’s student pursuing Artificial Intelligence at 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Justified Text Example</title>
+    <title>Bachelor’s Degree: I earned my Bachelor’s degree in Computer Engineering (Software Orientation) from Roshdiyeh University. During this time, I developed a strong foundation in programming, algorithms, and software development.</title>
     <style>
         body {
             font-family: Arial, sans-serif;

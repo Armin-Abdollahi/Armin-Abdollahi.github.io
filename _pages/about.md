@@ -422,3 +422,54 @@ redirect_from:
       <span id="p_loginnavigator_WAR_definitionportlet"></span>
 
   <div class="portlet-body">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    $('.redirect-chooser .toggler').on('click', function(event){
+        event.preventDefault();
+        $(this).closest('.redirect-chooser').toggleClass('opened');
+    });
+</script>
+
+
+
+
+<form action="#" id="hrefFm" method="post" name="hrefFm">
+	<span></span>
+</form>
+
+
+
+
+
+<html>
+        
+  </div>
+     </div>
+        
+  <footer class="sp-section fp-auto-height sp-footer ">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-xs-12 col-lg-push-4">
+                            <div>
+                                <img src="/shirazu-3-theme/images/logo-small-ltr.png" class="sp-footer-logo img-responsive" /> </div> </div> <div class="col-lg-4 col-md-6 col-xs-12 col-lg-pull-4"> <div class="row"> <div class="col-md-6"> </div> <div class="col-md-6"> </div> </div> </div> <div class="col-lg-4 col-md-6 col-xs-12"> <div class="sp-contact"> <div class="col-lg-4 col-md-6 col-lg-push-8"> <form action="/newsletter?p_p_id=newsletter_WAR_newsletterportlet&amp;p_p_lifecycle=0&amp;p_p_col_pos=1&amp;p_p_col_count=2" method="post" style="position: relative;"> <i class="fa fa-envelope-o" aria-hidden="true"></i> <input class="sp-mail" name="_newsletter_WAR_newsletterportlet_email" placeholder="پست الکترونیک" type="text" /> <input class="sp-newsletter" type="submit" value="عضویت خبرنامه" /> </form> </div> <div class="col-lg-8 col-md-6 col-lg-pull-4 sp-footer-contact"> </div> <div class="col-md-12 sp-map"> </div> </div> </div> </div> <div class="row"> <div class="col-md-4 col-md-offset-4 sp-copyright"> <a class="sp-top" href="#top"><i class="fa fa-angle-up"></i></a> <p> Shiraz University <br/> <span>Designed and implemented by <a href="http://sain.ir" target="_blank"> SAIN </a></span> </p> </div> </div> </div> </footer> </div> </div> <div class="offcanvas-menu"> <a href="JavaScript:Void(0);" class="close-offcanvas"> <i class="fa fa-close"></i> </a> <div class="offcanvas-inner"> <div class="sp-module"> <div class="sp-module-menu"> </div> </div> </div> </div> <script type="text/javascript">jQuery(document).ready(function(){jQuery(".responsive").responsiveheight();AOS.init()});</script> </body> <script src="/definition-portlet/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1721422720000" type="text/javascript"></script> <script src="/edu-manager-portlet/js/persianumber.min.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1721422781000" type="text/javascript"></script> <script src="/edu-manager-portlet/edu-teacher-display/js/loadingoverlay.min.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1721422781000" type="text/javascript"></script> <script src="/edu-manager-portlet/edu-teacher-display/js/jquery.easypiechart.min.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1721422781000" type="text/javascript"></script> <script src="/edu-manager-portlet/edu-teacher-display/js/Chart.min.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1721422781000" type="text/javascript"></script> <script src="/edu-manager-portlet/js/bootstrap-select.min.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1721422781000" type="text/javascript"></script> <script src="/edu-manager-portlet/edu-teacher-display/js/custom_person_network_diagram.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1721422781000" type="text/javascript"></script> <script src="/edu-manager-portlet/edu-teacher-display/js/d3.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1721422781000" type="text/javascript"></script> <script src="/edu-manager-portlet/js/jquery.mCustomScrollbar.concat.min.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1721422781000" type="text/javascript"></script> <script src="/edu-manager-portlet/js/pure-profile.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1721422781000" type="text/javascript"></script> <script src="/edu-manager-portlet/edu-teacher-display/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1721422781000" type="text/javascript"></script> <script src="/edu-manager-portlet/js/email.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1721422781000" type="text/javascript"></script> <script src="/edu-manager-portlet/js/datatables.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1721422781000" type="text/javascript"></script> <script type="text/javascript">Liferay.Util.addInputFocus();</script> <script type="text/javascript">Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_103_",portletId:"103",refreshURL:"\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d14366\x26p_p_id\x3d103\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252F\x257Erboostani\x252Fnetwork"});Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_eduteacherdisplay_WAR_edumanagerportlet_",portletId:"eduteacherdisplay_WAR_edumanagerportlet",refreshURL:"\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d14366\x26p_p_id\x3deduteacherdisplay_WAR_edumanagerportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252F\x257Erboostani\x252Fnetwork\x26teacherArticleId\x3d\x26PersonalPageAddress\x3d\x26PersonalPageScreenName\x3drboostani\x26teacherUserId\x3d26426\x26_eduteacherdisplay_WAR_edumanagerportlet_mvcPath\x3d\x252Fedu-teacher-display\x252Fview_teacher\x2ejsp\x26pureSection\x3dnetwork"});Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_loginnavigator_WAR_definitionportlet_",portletId:"loginnavigator_WAR_definitionportlet",refreshURL:"\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d14366\x26p_p_id\x3dloginnavigator_WAR_definitionportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252F\x257Erboostani\x252Fnetwork"});Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_82_",portletId:"82",refreshURL:"\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d14366\x26p_p_id\x3d82\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252F\x257Erboostani\x252Fnetwork"});AUI().use("aui-base","liferay-menu","liferay-notice","liferay-poller",function(a){(function(){Liferay.Util.addInputType();Liferay.Portlet.ready(function(b,c){Liferay.Util.addInputType(c)})})();(function(){new Liferay.Menu();var b=Liferay.Data.notices;for(var c=1;c<b.length;c++){new Liferay.Notice(b[c])}})()});</script> <script src="/shirazu-3-theme/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1637341307000" type="text/javascript"></script> <script type="text/javascript"></script> </html>

@@ -35,15 +35,15 @@ redirect_from:
   <h2>Professional Journey</h2>
   
   <p>
-    <h4>Bachelor’s Degree:</h4> I earned my Bachelor’s degree in Computer Engineering (Software Orientation) from Roshdiyeh University. During this time, I developed a strong foundation in programming, algorithms, and software development.
+    <h3>Bachelor’s Degree:</h3> I earned my Bachelor’s degree in Computer Engineering (Software Orientation) from Roshdiyeh University. During this time, I developed a strong foundation in programming, algorithms, and software development.
   </p>
   
   <p>
-    <h4>Master’s Pursuit:</h4> My journey continued as I embarked on my Master’s in Artificial Intelligence at Azad University. Here, I’ve delved into the intricacies of machine learning, neural networks, and deep learning. Currently, I’m immersed in my thesis work, exploring novel approaches to brain-computer interfaces.
+    <h3>Master’s Pursuit:</h3> My journey continued as I embarked on my Master’s in Artificial Intelligence at Azad University. Here, I’ve delved into the intricacies of machine learning, neural networks, and deep learning. Currently, I’m immersed in my thesis work, exploring novel approaches to brain-computer interfaces.
   </p>
   
   <p>
-    <h4>Ph.D Aspirations:</h4> I’m actively seeking opportunities for a Ph.D. position, where I hope to contribute to cutting-edge research in AI and advance our understanding of intelligent systems.
+    <h3>Ph.D Aspirations:</h3> I’m actively seeking opportunities for a Ph.D. position, where I hope to contribute to cutting-edge research in AI and advance our understanding of intelligent systems.
   </p>
 
 </center>

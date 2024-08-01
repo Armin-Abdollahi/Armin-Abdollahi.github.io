@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<video width="750" autoplay loop muted>
+<video width="800" autoplay loop muted>
   <source src="https://github.com/user-attachments/assets/3c947a03-2b59-4a82-87c5-f32bd304a1a6" type="video/mp4">
 </video>
 

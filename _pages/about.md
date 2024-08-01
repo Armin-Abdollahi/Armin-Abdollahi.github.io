@@ -1,3 +1,7 @@
+<video width="775" autoplay loop muted>
+  <source src="https://github.com/user-attachments/assets/07c1bec4-b9b0-489c-b48d-7e372e323bca" type="video/mp4">
+</video>
+
 ---
 permalink: /
 title: ""
@@ -9,9 +13,7 @@ redirect_from:
 ---
 
 
-<video width="775" autoplay loop muted>
-  <source src="https://github.com/user-attachments/assets/07c1bec4-b9b0-489c-b48d-7e372e323bca" type="video/mp4">
-</video>
+
 
 
 <center>

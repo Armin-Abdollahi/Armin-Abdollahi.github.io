@@ -89,7 +89,7 @@ function magnify(imgID, zoom) {
 <body>
 
 <div class="img-magnifier-container">
-  <img id="myimage" src="/images/Internship.jpg">
+  <img id="myimage" src="/images/Internship.jpg" width="600" height="400">
 </div>
 
 

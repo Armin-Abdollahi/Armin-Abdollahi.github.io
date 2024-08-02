@@ -8,7 +8,7 @@ date: 2024-08-01
 location: "Tehran, Iran"
 ---
 
-<!DOCTYPE html>
+
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,21 +88,22 @@ function magnify(imgID, zoom) {
 </head>
 <body>
 
-<h1>Image Magnifier Glass</h1>
-
-<p>Mouse over the image:</p>
-
 <div class="img-magnifier-container">
-  <img id="myimage" src="img_girl.jpg" width="600" height="400">
+  <img id="myimage" src="/images/Internship.jpg">
 </div>
 
-<p>Feel free to change the strength of the magnifier glass when initiating the magnify function.</p>
 
 <script>
-/* Initiate Magnify Function
-with the id of the image, and the strength of the magnifier glass:*/
 magnify("myimage", 3);
 </script>
 
 </body>
 </html>
+
+## EEG Laboratory
+![Internship - Copy](https://github.com/user-attachments/assets/85fd52e6-ecf3-440a-98e6-f499c23a6650){: .align-right}
+
+
+## fNIRS Laboratory
+![Internship - Copy (2)](https://github.com/user-attachments/assets/72dc3e7f-b661-41b1-b3f8-35f837744d6a){: .align-left}
+

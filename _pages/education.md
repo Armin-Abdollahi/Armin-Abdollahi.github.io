@@ -9,7 +9,7 @@ author_profile: true
 ![Tehranshomallogo](/images/Tehranshomallogo.png){: .align-right}
   Azad University
   2022 - present | Tehran, Iran
-- **GPA:** /4 (18.81/20.0)
+- **GPA:** 3.76/4.00 (18.81/20.0)
 - **Supervisor:** [Prof. Maliheh Sabeti](https://scholar.google.com/citations?user=Qn_ik_gAAAAJ&hl=en&oi=sra)
 - **Advisor:** [Prof. Reza Boostani](https://scholar.google.com/citations?user=h-E-Ce4AAAAJ&hl=en)
 
@@ -31,7 +31,7 @@ author_profile: true
 ![Roshdiyeh](/images/Roshdiyeh.png){: .align-right}
   Roshdiyeh University
   2018 - 2022 | Tabriz, Iran
-- **GPA:** /4 (15.80/20.0)
+- **GPA:** 3.16/4.00 (15.80/20.0)
 
 ## Major-related courses:
 

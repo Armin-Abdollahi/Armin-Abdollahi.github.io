@@ -53,7 +53,7 @@ location: "Tehran, Iran"
 
 
 
-<img src="/image/Internship.jpg">
+<img src="/images/Internship.jpg">
 
 
 

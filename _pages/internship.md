@@ -10,6 +10,7 @@ location: "Tehran, Iran"
 
 
 ## EEG Laboratory
+![Internship - Copy](https://github.com/user-attachments/assets/85fd52e6-ecf3-440a-98e6-f499c23a6650){: .align-right}
 - The duration of the internship in the EEG laboratory was 3 days.
 - The following topics are covered in this course:
 - Getting to know the nature of the EEG signal
@@ -23,6 +24,7 @@ location: "Tehran, Iran"
 
 
 ## fNIRS Laboratory
+![Internship - Copy (2)](https://github.com/user-attachments/assets/72dc3e7f-b661-41b1-b3f8-35f837744d6a){: .align-left}
 - The duration of the internship in the fNIRS laboratory was one day.
 - The following topics are covered in this course:
 - Familiarity with the nature of the fNIRS signal
@@ -34,6 +36,8 @@ location: "Tehran, Iran"
 - Getting to know how to place optodes on the head
 - Familiarity with fNIRS recording technique
 - Familiarity with common artifacts in fNIRS signal and how to identify them
+
+
 
 
 

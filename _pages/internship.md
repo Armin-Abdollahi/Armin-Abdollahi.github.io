@@ -53,49 +53,7 @@ location: "Tehran, Iran"
 
 
 
-
-
-<div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="bio-club-club">
-                    <h2>باشگاه پژوهشگران</h2>
-                                        <p>آزمایشگاه ملی نقشه برداری مغز به پاس قدردانی از اعتماد مشتریان وفادار خود و جلب رضایت هر چه بیشتر آنان، اقدام به راه اندازی باشگاه پژوهشگران با اهداف زیر نموده است.</p>
-                    <br>
-                    <br>
-                                        <div class="more">
-                        <a href="https://web.archive.org/web/20240705091432/https://nbml.ir/fa/nbml-club" class="btn btn-green-g">
-                            <span>ورود به باشگاه پژوهشگران</span>
-                        </a>
-                    </div>
-                    <div class="line"></div>
-                    <div class="circle"></div>
-                    <div class="slant"></div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img src="/web/20240705091432im_/https://nbml.ir/template/fa/images/brain-head.png" alt="">
-            </div>
-            <div class="col-md-4">
-                <div class="bio-club-bio">
-                    <h2>بیوبانک</h2>
-                                        <p>بیوبانک&zwnj;ها ابزاری برای تسهیل پژوهش به&zwnj;شمار می&zwnj;روند. آزمایشگاه ملی نقشه&zwnj;برداری مغز ایران، از سال 1397، بیوبانک نقشه&zwnj;برداری مغز ایران را راه&zwnj;اندازی کرده است تا نمونه&zwnj;های مربوط به این حوزه را برای پژوهشگران کشور میزبانی کند و در اختیار آن&zwnj;ها در سرتاسر کشور قرار دهد.</p>
-                                        <div class="more">
-                        <a href="https://web.archive.org/web/20240705091432/https://ibmb.nbml.ir/" target="_blank" class="btn btn-orange">
-                            <span>ورود به بیوبانک</span>
-                        </a>
-                    </div>
-                    <div class="line"></div>
-                    <div class="circle"></div>
-                    <div class="slant"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
+<img src="/image/internship.jpg">
 
 
 

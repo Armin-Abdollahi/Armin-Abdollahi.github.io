@@ -14,7 +14,7 @@ Sep 2023 - Sep 2024 (12 mos)
 
 ## Responsibilities:
 - Teaching how to work with the **MNE** Library ([Link to YouTube](https://youtu.be/lEUmgSFQaAY?si=cleiGy5MDbQBQmla))
-![MNE_Poster](/images/MNE_Poster.jpg){: .align-right}
+<img src="/images/MNE_Poster.jpg" width="300">{: .align-right}
 <video width="600" controls autoplay>
   <source src="https://github.com/user-attachments/assets/27cbb273-9423-4fb0-b6ee-36e2b89cd9e2" type="video/mp4">
 </video>

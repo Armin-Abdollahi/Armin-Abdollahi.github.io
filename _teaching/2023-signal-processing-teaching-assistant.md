@@ -24,7 +24,7 @@ Sep 2023 - Sep 2024 (12 mos)
   <source src="https://github.com/user-attachments/assets/d1324b3f-9f2f-449b-9180-5b9c2907bf75" type="video/mp4">
 </video>
 
-<img src="/images/MNE_Poster.jpg" width="450">{: .align-center}
+<img src="/images/MNE_Poster.jpg" width="450">
 
 - Teaching how to work with the **EEGLAB** toolbox ([Link to YouTube](https://youtu.be/-DQS0o_t5DI?si=awLn771bZ8ISBNGv))
 

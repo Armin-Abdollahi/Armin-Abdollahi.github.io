@@ -4,7 +4,7 @@ title: "Education"
 permalink: /education/
 author_profile: true
 ---
-<h1 style="color:blue;">MSc in Artificial Intelligence</h1>
+<h1 style="color:#2056ae;">MSc in Artificial Intelligence</h1>
 # MSc in Artificial Intelligence
 ![Tehranshomallogo](/images/Tehranshomallogo.png){: .align-right}
   Azad University

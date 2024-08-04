@@ -1,11 +1,10 @@
 ---
 layout: archive
-title: "Education"
+title: "Education"{: .align-center}
 permalink: /education/
 author_profile: true
 ---
 <h1 style="color:#2056ae;">MSc in Artificial Intelligence</h1>
-# MSc in Artificial Intelligence
 ![Tehranshomallogo](/images/Tehranshomallogo.png){: .align-right}
   Azad University
   2022 - present | Tehran, Iran
@@ -27,8 +26,7 @@ author_profile: true
 - Seminar: 20/20
 
 ---
-
-# B.S. in Computer Engineering
+<h1 style="color:#2c652e;">B.S. in Computer Engineering</h1>
 ![Roshdiyeh](/images/Roshdiyeh.png){: .align-right}
   Roshdiyeh University
   2018 - 2022 | Tabriz, Iran

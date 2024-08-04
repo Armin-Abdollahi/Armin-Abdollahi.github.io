@@ -1,9 +1,10 @@
 ---
 layout: archive
-title: "Education"{: .align-center}
+title: ""
 permalink: /education/
 author_profile: true
 ---
+<h1>Education{: .align-center}</h1>
 <h1 style="color:#2056ae;">MSc in Artificial Intelligence</h1>
 ![Tehranshomallogo](/images/Tehranshomallogo.png){: .align-right}
   Azad University

@@ -14,4 +14,4 @@ author_profile: true
 | <a href="/images/certificate-04.jpg" target="_blank"><img src="/images/certificate-04.jpg" /></a> | <a href="/images/certificate-05.png" target="_blank"><img src="/images/certificate-05.png" /></a> | <a href="/images/certificate-06.jpg" target="_blank"><img src="/images/certificate-06.jpg" /></a> |
 | <a href="/images/certificate-17.jpg" target="_blank"><img src="/images/certificate-17.jpg" /></a> | <a href="/images/certificate-20.jpg" target="_blank"><img src="/images/certificate-20.jpg" /></a> | <a href="/images/certificate-21.jpg" target="_blank"><img src="/images/certificate-21.jpg" /></a> |
 | <a href="/images/certificate-11.jpeg" target="_blank"><img src="/images/certificate-11.jpeg" /></a> | <a href="/images/certificate-12.jpg" target="_blank"><img src="/images/certificate-12.jpg" /></a> | <a href="/images/certificate-22.jpg" target="_blank"><img src="/images/certificate-22.jpg" /></a> |
-| <a href="/images/certificate-19.jpeg" target="_blank"><img src="/images/certificate-19.jpeg" /></a> |
+| <a href="/images/certificate-19.png" target="_blank"><img src="/images/certificate-19.png" /></a> |

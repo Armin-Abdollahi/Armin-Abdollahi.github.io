@@ -8,9 +8,11 @@ date: 2024-08-01
 location: "Tehran, Iran"
 ---
 <h2>EEG Laboratory</h2>
-![Internship-EEG](https://github.com/user-attachments/assets/ed862bdb-ea5a-4b48-84d2-511c2db2d246)
+![EEG Internship](https://github.com/user-attachments/assets/7056613b-9043-4ca3-9172-ead7dd7aca94)
+
 
 
 <h2>fNIRS Laboratory</h2>
-![Internship-fNIRS](https://github.com/user-attachments/assets/e44a1e33-1c51-46cb-9152-141ca33665c1)
+![fNIRS Internship](https://github.com/user-attachments/assets/a5749b50-b111-4b60-9194-fcba312a4d6b)
+
 

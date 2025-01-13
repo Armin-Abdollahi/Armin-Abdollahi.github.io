@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-<video width= inherit autoplay loop muted>
+<video width= inherit; autoplay loop muted>
   <source src="https://github.com/user-attachments/assets/3c947a03-2b59-4a82-87c5-f32bd304a1a6" type="video/mp4">
 </video>
 

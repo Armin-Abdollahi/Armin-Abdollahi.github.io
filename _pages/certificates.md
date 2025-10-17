@@ -7,6 +7,7 @@ author_profile: true
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
+| <img width="7016" height="4961" alt="Certificate" src="https://github.com/user-attachments/assets/13634b81-8006-4b61-a789-8522cfaf3ba4" /> | <img width="2160" height="1527" alt="Certificate" src="https://github.com/user-attachments/assets/063b68dd-9ed7-416b-b051-d05944934c08" /> | ![Poster](https://github.com/user-attachments/assets/b74fcf14-3c02-46a3-b1b5-438ef08730f2) |
 | <a href="/images/certificate-01.png" target="_blank"><img src="/images/certificate-01.png" /></a> | <a href="/images/certificate-02.png" target="_blank"><img src="/images/certificate-02.png" /></a> | <a href="/images/certificate-03.png" target="_blank"><img src="/images/certificate-03.png" /></a> |
 | <a href="/images/certificate-15.png" target="_blank"><img src="/images/certificate-15.png" /></a> | <a href="/images/certificate-16.png" target="_blank"><img src="/images/certificate-16.png" /></a> | <a href="/images/certificate-23.png" target="_blank"><img src="/images/certificate-23.png" /></a> |
 | <a href="/images/certificate-18.jpeg" target="_blank"><img src="/images/certificate-18.jpeg" /></a>  | <a href="/images/certificate-07.png" target="_blank"><img src="/images/certificate-07.png" /></a> | <a href="/images/certificate-08.png" target="_blank"><img src="/images/certificate-08.png" /></a> |

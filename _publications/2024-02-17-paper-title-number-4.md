@@ -16,4 +16,7 @@ Bone age estimation is essential in pediatric healthcare for assessing growth an
 
 <img width="7016" height="4961" alt="Certificate" src="https://github.com/user-attachments/assets/4860036d-7426-40e6-b2ae-2e9bdcb80d7f" />
 
+<img width="2160" height="1527" alt="Certificate" src="https://github.com/user-attachments/assets/210a2de4-3ddd-4480-808a-5a03b6db591c" />
+
+
 ![Poster](https://github.com/user-attachments/assets/f1a2690b-d376-4160-b3cc-f2e549425f5e)

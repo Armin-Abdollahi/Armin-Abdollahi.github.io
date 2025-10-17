@@ -7,7 +7,8 @@ author_profile: true
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-| <img width="2805" height="1983" alt="0" src="https://github.com/user-attachments/assets/2e43d98a-6ef7-4c08-b9c9-8e76f57a6f07" /> | <img width="2805" height="1983" alt="1" src="https://github.com/user-attachments/assets/139672b7-163f-43bd-bc6b-4961f21931c0" /> | <img width="2805" height="1582" alt="2" src="https://github.com/user-attachments/assets/0da81eba-1308-4394-a261-99b0b83c6908" /> |
+| <a href="/images/certificate-24.png" target="_blank"><img src="/images/certificate-24.png" /></a> | <a href="/images/certificate-25.png" target="_blank"><img src="/images/certificate-25.png" /></a> | <a href="/images/certificate-27.png" target="_blank"><img src="/images/certificate-27.png" /></a> |
+| <a href="/images/certificate-26.png" target="_blank"><img src="/images/certificate-26.png" /></a> |  |  |
 | <a href="/images/certificate-01.png" target="_blank"><img src="/images/certificate-01.png" /></a> | <a href="/images/certificate-02.png" target="_blank"><img src="/images/certificate-02.png" /></a> | <a href="/images/certificate-03.png" target="_blank"><img src="/images/certificate-03.png" /></a> |
 | <a href="/images/certificate-15.png" target="_blank"><img src="/images/certificate-15.png" /></a> | <a href="/images/certificate-16.png" target="_blank"><img src="/images/certificate-16.png" /></a> | <a href="/images/certificate-23.png" target="_blank"><img src="/images/certificate-23.png" /></a> |
 | <a href="/images/certificate-18.jpeg" target="_blank"><img src="/images/certificate-18.jpeg" /></a>  | <a href="/images/certificate-07.png" target="_blank"><img src="/images/certificate-07.png" /></a> | <a href="/images/certificate-08.png" target="_blank"><img src="/images/certificate-08.png" /></a> |

@@ -1,13 +1,14 @@
 ---
-title: "Paper Title Number 3"
+title: "Bone Age Estimation Through Hand X-Ray Analysis with Visual Transformer Model"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publication/2025-10-17-bone-age-estimation-visual-transformer
+excerpt: 'This paper presents a method for estimating bone age using hand X-ray images and a Visual Transformer architecture.'
+date: 2025-10-17
+venue: 'The International Conference on Medicine and Artificial Intelligence in Health'
+paperurl: 'https://www.researchgate.net/publication/396397607_Bone_Age_Estimation_Through_Hand_X-Ray_Analysis_with_Visual_Transformer_Model'
+citation: 'Author(s). (2025). "Bone Age Estimation Through Hand X-Ray Analysis with Visual Transformer Model." <i>—</i>.'
 ---
+
 
 ### Abstract
 

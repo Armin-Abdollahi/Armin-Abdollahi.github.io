@@ -6,7 +6,7 @@ excerpt: 'Persian translation of “Brain-Computer Interface Research: A State-o
 date: 2025-11-10
 venue: 'Shaparak Publishing (Persian Edition) / Springer (Original)'
 paperurl: '—'
-citation: 'Abdollahi, A., Guger, C., Azorin, J. M., Korostenskaja, M., Allison, B. (2025). "Brain-Computer Interface (BCI): Research A State-of-the-Art Summary 12 — Persian Translation." <i>Shaparak Publishing / Springer</i>.'
+citation: 'Abdollahi, A., Guger, C., Azorin, J. M., Korostenskaja, M., Allison, B. (2025). "Brain-Computer Interface (BCI): Research A State-of-the-Art Summary 12 — Persian Translation." Shaparak Publishing / Springer.'
 ---
 This Persian edition is translated by Armin Abdollahi and provides an accessible overview of the latest advancements in brain-computer interface (BCI) research. It bridges neuroscience and artificial intelligence for Persian-speaking researchers and students. 
 

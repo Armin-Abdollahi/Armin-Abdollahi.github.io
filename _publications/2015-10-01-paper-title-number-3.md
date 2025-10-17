@@ -1,12 +1,17 @@
 ---
-title: "Paper Title Number 3"
+title: "Brain-Computer Interface (BCI): Research A State-of-the-Art Summary 12 — Persian Translation"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publication/2025-11-10-bci-state-of-the-art-persian
+excerpt: 'Persian translation of “Brain-Computer Interface Research: A State-of-the-Art Summary (Volume 12)”, providing an accessible overview of BCI advancements for Persian-speaking researchers and students.'
+date: 2025-11-10
+venue: 'Shaparak Publishing (Persian Edition) / Springer (Original)'
+paperurl: '—'  # اگر URL فروش یا PDF هست، اینجا بگذار
+citation: 'Abdollahi, A., Guger, C., Azorin, J. M., Korostenskaja, M., Allison, B. (2025). "Brain-Computer Interface (BCI): Research A State-of-the-Art Summary 12 — Persian Translation." <i>Shaparak Publishing / Springer</i>.'
+authors:
+  - Armin Abdollahi (Translator)
+  - Dr. Christoph Guger
+  - Jose M. Azorin
+  - Milena Korostenskaja, PhD
+  - Brendan Allison
+description: 'Persian translation of “Brain-Computer Interface Research: A State-of-the-Art Summary (Volume 12)”, originally published by Springer as part of the SpringerBriefs in Electrical and Computer Engineering series. This edition, translated by Armin Abdollahi, provides an accessible overview of the latest advancements in brain-computer interface (BCI) research, bridging neuroscience and artificial intelligence for Persian-speaking researchers and students.'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.

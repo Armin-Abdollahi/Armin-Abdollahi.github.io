@@ -7,7 +7,7 @@ author_profile: true
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-| <a href="/images/certificate-24.png" target="_blank"><img src="/images/certificate-24.png" /></a> | <a href="/images/certificate-25.png" target="_blank"><img src="/images/certificate-25.png" /></a> | <a href="/images/certificate-27.png" target="_blank"><img src="/images/certificate-27.png" /></a> |
+| <a href="/images/certificate-24.png" target="_blank"><img src="/images/certificate-24.png" /></a> | <a href="/images/certificate-25.png" target="_blank"><img src="/images/certificate-25.png" /></a> | <a href="/images/certificate-27.jpg" target="_blank"><img src="/images/certificate-27.jpg" /></a> |
 | <a href="/images/certificate-26.png" target="_blank"><img src="/images/certificate-26.png" /></a> |  |  |
 | <a href="/images/certificate-01.png" target="_blank"><img src="/images/certificate-01.png" /></a> | <a href="/images/certificate-02.png" target="_blank"><img src="/images/certificate-02.png" /></a> | <a href="/images/certificate-03.png" target="_blank"><img src="/images/certificate-03.png" /></a> |
 | <a href="/images/certificate-15.png" target="_blank"><img src="/images/certificate-15.png" /></a> | <a href="/images/certificate-16.png" target="_blank"><img src="/images/certificate-16.png" /></a> | <a href="/images/certificate-23.png" target="_blank"><img src="/images/certificate-23.png" /></a> |

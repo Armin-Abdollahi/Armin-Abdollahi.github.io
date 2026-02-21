@@ -16,17 +16,13 @@ author_profile: true
     border: 1px solid #e2e8f0;
     transition: transform 0.3s ease;
   }
-  .research-card:hover {
-    transform: translateY(-5px);
-  }
+  .research-card:hover { transform: translateY(-5px); }
   .research-header {
     background: linear-gradient(135deg, #1a3a5f 0%, #2980b9 100%);
     color: white;
     padding: 20px 25px;
   }
-  .research-body {
-    padding: 25px;
-  }
+  .research-body { padding: 25px; }
   .tech-tag {
     display: inline-block;
     background: #f1f5f9;
@@ -50,89 +46,63 @@ author_profile: true
   }
 </style>
 
-## 🧠 Core Research (Neuro-AI & BCI)
+## 🎓 Master's Thesis & Extracted Publications
 
 <div class="research-card">
   <div class="research-header">
-    <span class="status-badge" style="background: #1a3a5f; border: 1px solid white;">Active Project</span>
-    <h3 style="color: white; margin: 0;">NeuroValid: Robust BCI Benchmarking</h3>
+    <span class="status-badge">Grade: 20/20</span>
+    <h3 style="color: white; margin: 0;">Transformer-based Signal Decoding in BCI</h3>
   </div>
   <div class="research-body">
-    <p><strong>Explainable Deep Learning:</strong> Developed a comparative benchmark using <strong>Optuna</strong> to evaluate CNNs (EEGNet) vs. Convolutional Transformers (CvT). I utilized <strong>Grad-CAM</strong> and <strong>RSA</strong> to expose the "Clever Hans" effect, proving that SOTA models often overfit to ocular artifacts (EOG) instead of true neural intent.</p>
+    <p><strong>Core Research:</strong> Developing neurophysiologically valid Deep Learning models to decode neural intent. This research led to two major journal publications (Under Review at BSPC):</p>
+    <ul>
+      <li><strong>Project 1: The Illusion of Accuracy.</strong> Using XAI (Grad-CAM, RSA) to prove that SOTA CNNs often rely on high-amplitude artifacts (EOG/EMG) rather than actual neural features.</li>
+      <li><strong>Project 2: NeuroValid Benchmark.</strong> Validating <strong>Convolutional Transformers (CvT)</strong> on strictly filtered EEG signals to ensure robust, artifact-resistant decoding.</li>
+    </ul>
     <div>
-      <span class="tech-tag">XAI</span>
-      <span class="tech-tag">Convolutional Transformer (CvT)</span>
-      <span class="tech-tag">Optuna</span>
-      <span class="tech-tag">RSA Analysis</span>
-    </div>
-  </div>
-</div>
-
-<div class="research-card">
-  <div class="research-header">
-    <span class="status-badge">Thesis Focus (20/20)</span>
-    <h3 style="color: white; margin: 0;">Silent Communication & Imagined Speech</h3>
-  </div>
-  <div class="research-body">
-    <p><strong>Master's Thesis:</strong> Engineering an end-to-end <strong>Spectro-Temporal Transformer</strong> architecture to decode phonemes and words from EEG signals using the <strong>KARA ONE</strong> dataset. Focus includes mitigating EMG contamination while capturing long-range temporal dependencies.</p>
-    <div>
-      <span class="tech-tag">Hybrid Transformer-RNN</span>
-      <span class="tech-tag">Spectro-Temporal Modeling</span>
-      <span class="tech-tag">KARA ONE Dataset</span>
-      <span class="tech-tag">SHAP</span>
-    </div>
-    <div style="margin-top: 15px;">
-      <img src="https://github.com/user-attachments/assets/36bbc47d-6e87-4e53-a2da-55f3adfabf7f" alt="Neural Architecture" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
-    </div>
-  </div>
-</div>
-
-## 🔬 Multimodal & Applied AI
-
-<div class="research-card">
-  <div class="research-header">
-    <span class="status-badge" style="background: #3498db;">Laboratory Internship</span>
-    <h3 style="color: white; margin: 0;">Multimodal Neuro-Imaging (NBML)</h3>
-  </div>
-  <div class="research-body">
-    <p>Hands-on expertise at the <strong>National Brain Mapping Laboratory</strong> in recording and analyzing <strong>fNIRS</strong> and <strong>EEG</strong> signals. Designed experimental paradigms for neuro-cognitive assessments and neurofeedback.</p>
-    <div>
-      <span class="tech-tag">fNIRS</span>
-      <span class="tech-tag">Signal Recording</span>
+      <span class="tech-tag">Explainable AI (XAI)</span>
+      <span class="tech-tag">Convolutional Transformers</span>
+      <span class="tech-tag">Artifact Removal</span>
       <span class="tech-tag">MNE-Python</span>
-      <span class="tech-tag">Experimental Design</span>
+    </div>
+  </div>
+</div>
+
+## 🔬 Independent Research Projects
+
+<div class="research-card">
+  <div class="research-header" style="background: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);">
+    <span class="status-badge" style="background: #3498db;">Active</span>
+    <h3 style="color: white; margin: 0;">Speech BCI: Imagined Speech Decoding</h3>
+  </div>
+  <div class="research-body">
+    <p>Developing a <strong>Spectro-Temporal Transformer</strong> architecture for the classification of phonemes and words from imagined speech using the <strong>KARA ONE</strong> dataset. This project is independent of my thesis and focuses on assistive communication interfaces.</p>
+    <div>
+      <span class="tech-tag">Spectro-Temporal Modeling</span>
+      <span class="tech-tag">KARA ONE</span>
+      <span class="tech-tag">Assistive Tech</span>
     </div>
   </div>
 </div>
 
 <div class="research-card">
-  <div class="research-header">
-    <span class="status-badge" style="background: #64748b;">Computer Vision</span>
-    <h3 style="color: white; margin: 0;">Vision Transformers for Medical Imaging</h3>
+  <div class="research-header" style="background: linear-gradient(135deg, #1e293b 0%, #64748b 100%);">
+    <span class="status-badge" style="background: #9b59b6;">Completed</span>
+    <h3 style="color: white; margin: 0;">Bone Age Estimation (Medical Vision)</h3>
   </div>
   <div class="research-body">
-    <p>Implemented <strong>Vision Transformers (ViT)</strong> for pediatric bone age estimation on hand X-ray images, achieving lower MAE compared to traditional CNN baselines.</p>
+    <p>Application of <strong>Vision Transformers (ViT)</strong> for pediatric growth assessment using hand X-ray images. This work was presented as a poster at international conferences (Germany & Tehran).</p>
     <div>
-      <span class="tech-tag">ViT</span>
+      <span class="tech-tag">Vision Transformer</span>
+      <span class="tech-tag">Medical Imaging</span>
       <span class="tech-tag">Regression</span>
-      <span class="tech-tag">Pediatric Care</span>
     </div>
   </div>
 </div>
 
 ---
 
-## 📊 Technical Stack & Methodologies
-<div style="background: #f8fafc; padding: 20px; border-radius: 12px; border: 1px dashed #cbd5e1;">
-  <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-    <div style="flex: 1; min-width: 200px;">
-      <strong>Architectures:</strong> CvT, ViT, Hybrid Transformer-RNN, 1D-CNN
-    </div>
-    <div style="flex: 1; min-width: 200px;">
-      <strong>Signal Tools:</strong> MNE-Python, EEGLAB, BioSig, ASR/ICA
-    </div>
-    <div style="flex: 1; min-width: 200px;">
-      <strong>Deep Learning:</strong> PyTorch, TensorFlow, Optuna, Hugging Face
-    </div>
-  </div>
-</div>
+## 📚 Publications Summary
+* **Book:** Persian Translation of *"BCI: A State-of-the-Art Summary 12"* (Published 2026).
+* **Journals:** 2 papers on BCI Robustness and XAI (Under Review).
+* **Conference:** Bone Age Estimation via ViT (Poster Presentation).

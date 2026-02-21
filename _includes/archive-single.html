@@ -12,53 +12,75 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+<div class="{{ include.type | default: 'list' }}__item" style="margin-bottom: 2rem;">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" 
+           style="background: #ffffff; padding: 25px; border-radius: 12px; border-left: 6px solid #1a3a5f; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: transform 0.3s ease;">
+    
     {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
+      <div class="archive__item-teaser" style="margin-bottom: 15px; border-radius: 8px; overflow: hidden;">
         <img src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
           {% else %}
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
-          alt="">
+          alt="" style="width: 100%; object-fit: cover;">
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0; margin-bottom: 12px; font-weight: 700;">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}" style="color: #1a3a5f; text-decoration: none;">{{ title }}</a> 
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink" style="font-size: 0.7em; margin-left: 5px; color: #2980b9;"></i></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="color: #1a3a5f; text-decoration: none;">{{ title }}</a>
       {% endif %}
     </h2>
-    
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+
+    <div class="archive__item-metadata" style="font-size: 0.9em; color: #64748b; margin-bottom: 15px; display: flex; flex-wrap: wrap; gap: 15px;">
+      {% if post.collection == 'teaching' %}
+        <span><i class="fa fa-graduation-cap" aria-hidden="true"></i> {{ post.type }}, <strong>{{ post.venue }}</strong></span>
+      {% elsif post.collection == 'publications' %}
+        <span><i class="fa fa-book" aria-hidden="true"></i> Published in <i>{{ post.venue }}</i></span>
+      {% endif %}
+
+      {% if post.date %}
+        <span><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %Y" }}</span>
+      {% endif %}
+
+      {% if post.read_time %}
+        <span><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+      {% endif %}
+    </div>
+
+    {% if post.excerpt %}
+      <div class="archive__item-excerpt" itemprop="description" style="font-size: 0.95em; line-height: 1.7; color: #334155; margin-bottom: 20px;">
+        {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' | truncatewords: 45 }}
+      </div>
     {% endif %}
 
-        {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
+    <div class="archive__item-actions" style="display: flex; gap: 10px; flex-wrap: wrap;">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" class="btn--custom" style="background: #1a3a5f; color: white; padding: 6px 18px; border-radius: 25px; font-size: 0.85em; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+          <i class="fa fa-file-pdf-o"></i> PDF
+        </a>
+      {% endif %}
 
-    {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-    {% endif %}
-    
-    {% if post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p class="wordwrap">Download <a href=" {{ post.paperurl }} ">here</a></p>
-    {% endif %}
+      {% if post.codeurl %}
+        <a href="{{ post.codeurl }}" class="btn--custom" style="background: #2980b9; color: white; padding: 6px 18px; border-radius: 25px; font-size: 0.85em; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+          <i class="fa fa-github"></i> Code
+        </a>
+      {% endif %}
+
+      {% if post.citation %}
+        <div class="citation-toggle" style="font-size: 0.8em; color: #64748b; cursor: pointer; border: 1px solid #e2e8f0; padding: 5px 12px; border-radius: 20px;" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none';">
+          <i class="fa fa-quote-right"></i> Cite
+        </div>
+        <div class="citation-content" style="display: none; margin-top: 10px; padding: 10px; background: #f8fafc; border-radius: 8px; font-size: 0.8em; border: 1px dashed #cbd5e1;">
+          {{ post.citation }}
+        </div>
+      {% endif %}
+    </div>
 
   </article>
 </div>

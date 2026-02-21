@@ -1,98 +1,44 @@
-/* ==========================================================================
-   VARIABLES - Modern Academic Version (Deep Blue & Slate Grey)
-   ========================================================================== */
+{% include base_path %}
 
-/* Typography */
-$doc-font-size: 16;
-$paragraph-indent: false;
-$indent-var: 1.3em;
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
 
-/* Modern Font Stack */
-$sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-$serif: "Charter", "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
-$monospace: "JetBrains Mono", "Fira Code", Menlo, Monaco, Consolas, monospace;
+<div class="{{ include.type | default: 'list' }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="border-left: 5px solid #1a3a5f; padding: 1.5em; margin-bottom: 2em; background: #ffffff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border-radius: 0 8px 8px 0;">
+    
+    <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0;">
+      {% if post.link %}
+        <a href="{{ post.link }}" style="color: #1a3a5f; text-decoration: none;">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i></a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="color: #1a3a5f; text-decoration: none;">{{ title }}</a>
+      {% endif %}
+    </h2>
 
-$global-font-family: $sans-serif;
-$header-font-family: $sans-serif;
-$caption-font-family: $serif;
+    <p style="font-size: 0.9em; color: #64748b;">
+      {% if post.collection == 'teaching' %}
+        <i class="fa fa-graduation-cap"></i> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}
+      {% elsif post.collection == 'publications' %}
+        <i class="fa fa-book"></i> Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}
+      {% endif %}
+    </p>
 
-/* Type Scale */
-$type-size-1: 2.441em;
-$type-size-2: 1.953em;
-$type-size-3: 1.563em;
-$type-size-4: 1.25em;
-$type-size-5: 1em;
-$type-size-6: 0.75em;
-$type-size-7: 0.6875em;
-$type-size-8: 0.625em;
+    {% if post.excerpt %}
+      <div class="archive__item-excerpt" itemprop="description" style="font-size: 0.95em; line-height: 1.6;">
+        {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+      </div>
+    {% endif %}
 
-/* Masthead & Sidebar */
-$masthead-height: 50px;
-$sidebar-min-width: 1024px;
-$sidebar-link-max-width: 250px;
+    <div style="margin-top: 15px; display: flex; gap: 10px;">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" style="background: #1a3a5f; color: white; padding: 5px 15px; border-radius: 20px; text-decoration: none; font-size: 0.85em;">PDF</a>
+      {% endif %}
+      {% if post.codeurl %}
+        <a href="{{ post.codeurl }}" style="background: #2980b9; color: white; padding: 5px 15px; border-radius: 20px; text-decoration: none; font-size: 0.85em;">Code</a>
+      {% endif %}
+    </div>
 
-/* Colors - Compatibility Mode
-   ========================================================================== */
-
-/* Base Colors required by the theme */
-$gray: #64748b; 
-$dark-gray: #334155;
-$darker-gray: #1e293b;
-$light-gray: #f1f4f6;
-$lighter-gray: #f8fafc;
-
-/* Academic Palette */
-$primary-color: #1a3a5f; // Deep Blue
-$success-color: #10b981;
-$warning-color: #f59e0b;
-$danger-color: #ef4444;
-$info-color: #2980b9; // Bright Blue
-
-/* UI Mappings */
-$background-color: #ffffff;
-$code-background-color: $lighter-gray;
-$text-color: $darker-gray;
-$border-color: #e2e8f0;
-
-/* Links */
-$link-color: #2980b9;
-$link-color-hover: $primary-color;
-$link-color-visited: mix(#fff, $link-color, 15%);
-$masthead-link-color: $primary-color;
-$masthead-link-color-hover: $link-color;
-
-/* Brands */
-$github-color: #000000;
-$linkedin-color: #0077b5;
-$twitter-color: #1da1f2;
-$orcid-color: #a6ce39;
-$youtube-color: #ff0000;
-
-/* Breakpoints */
-@include breakpoint-set("to ems", true);
-$small: 600px !default;
-$medium: 768px !default;
-$medium-wide: 900px !default;
-$large: 925px !default;
-$x-large: 1280px !default;
-
-/* Grid (Susy) */
-$right-sidebar-width-narrow: 0px;
-$right-sidebar-width: 0px;
-$right-sidebar-width-wide: 0px;
-
-$susy: (
-  columns: 12,
-  column-width: 120px,
-  gutters: 1/4,
-  math: fluid,
-  output: float,
-  gutter-position: after,
-  container: $large,
-  global-box-sizing: border-box,
-);
-
-/* Global Effects */
-$border-radius: 8px;
-$box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-$global-transition: all 0.3s ease-in-out;
+  </article>
+</div>

@@ -1,18 +1,68 @@
 ---
 layout: archive
-title: "Teaching Assistant"
+title: "Teaching & Mentorship"
 permalink: /teaching/
 author_profile: true
 ---
-<h3>Teaching and Mentorship</h3>
-As a Teaching Assistant, I’ve had the privilege of assisting with two courses: Signal Processing and Image Processing. I believe in fostering a collaborative learning environment and helping students discover their passion for AI.
 
+<style>
+  .teaching-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .teaching-card {
+    border-left: 5px solid #1a3a5f;
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 0 12px 12px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+  .teaching-title {
+    color: #1a3a5f;
+    margin: 0 0 10px 0;
+    font-size: 1.4rem;
+  }
+  .teaching-role {
+    font-weight: bold;
+    color: #2980b9;
+    display: block;
+    margin-bottom: 5px;
+  }
+</style>
 
+I believe in bridging the gap between theoretical AI and practical implementation. My teaching philosophy focuses on **hands-on coding**, **reproducible research**, and mentoring the next generation of AI researchers.
 
-{% include base_path %}
+<div class="teaching-container">
 
+  <div class="teaching-card" style="border-left-color: #e74c3c;">
+    <span class="teaching-role">Current Role | Fall 2025 - Present</span>
+    <h3 class="teaching-title">Head Teaching Assistant: Deep Learning</h3>
+    <p>Leading a team of TAs for graduate-level students. Focusing on Transformer architectures, Optimization, and PyTorch implementation.</p>
+    <a href="/teaching/Deep-Learning-Head-TA" class="btn btn--info">View Details</a>
+  </div>
+
+  <div class="teaching-card">
+    <span class="teaching-role">Teaching Assistant | 2023 - 2024</span>
+    <h3 class="teaching-title">Signal Processing & EEG Decoding</h3>
+    <p>Conducted workshops on MNE-Python and EEGLAB for neural signal analysis.</p>
+    <a href="/teaching/Signal-Processing" class="btn btn--info">View Details</a>
+  </div>
+
+  <div class="teaching-card">
+    <span class="teaching-role">Teaching Assistant | 2023 - 2024</span>
+    <h3 class="teaching-title">Digital Image Processing</h3>
+    <p>Teaching fundamental computer vision algorithms and spatial filters in Python/MATLAB.</p>
+    <a href="/teaching/Image-Processing" class="btn btn--info">View Details</a>
+  </div>
+
+</div>
+
+---
+### 🎥 Webinars & Public Talks
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  {% if post.type == "Series of AI Webinars" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
-
-

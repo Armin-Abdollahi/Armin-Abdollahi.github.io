@@ -1,58 +1,86 @@
 ---
 layout: archive
-title: ""
+title: "Education"
 permalink: /education/
 author_profile: true
 ---
-<h1 align=center>Education</h1>
-<h1 style="color:#2056ae;">MSc in Artificial Intelligence</h1>
-![Tehranshomallogo](/images/Tehranshomallogo.png){: .align-right}
-  Azad University
-  2022 - present | Tehran, Iran
-- **GPA:** 3.76/4.00 (18.81/20.0)
-- **Supervisor:** [Prof. Maliheh Sabeti](https://scholar.google.com/citations?user=Qn_ik_gAAAAJ&hl=en&oi=sra)
-- **Advisor:** [Prof. Reza Boostani](https://scholar.google.com/citations?user=h-E-Ce4AAAAJ&hl=en)
 
+<style>
+  .edu-item {
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  .edu-item:last-child {
+    border-bottom: none;
+  }
+  .university-logo {
+    float: right;
+    width: 80px;
+    margin-left: 20px;
+  }
+  .degree-title {
+    color: #1a3a5f;
+    margin-bottom: 5px;
+  }
+  .uni-name {
+    font-weight: bold;
+    color: #2980b9;
+    font-size: 1.1rem;
+  }
+  .edu-date {
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-bottom: 15px;
+    display: block;
+  }
+  .highlights-list {
+    margin-top: 10px;
+    font-size: 0.95rem;
+  }
+  .grade-badge {
+    background: #10b981;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+</style>
 
-## Major-related courses:
+<div class="edu-item">
+  <h2 class="degree-title">M.Sc. in Artificial Intelligence</h2>
+  <span class="uni-name">Azad University, Tehran North Branch</span>
+  <span class="edu-date">2023 — 2025</span>
+  
+  <div class="highlights-list">
+    <ul>
+      <li><strong>Master's Thesis:</strong> "Developing Transformer-based Deep Learning models for Signal Decoding in Brain-Computer Interface"</li>
+      <li><strong>Thesis Grade:</strong> <span class="grade-badge">20 / 20</span> (Perfect Score)</li>
+      <li><strong>Focus Areas:</strong> Deep Learning, Neural Signal Processing (EEG), Transformers, Vision Transformers (ViT).</li>
+      <li><strong>Rank:</strong> Top student in the AI department.</li>
+    </ul>
+  </div>
+</div>
 
-- Image Processing: 20/20
-- Signal Processing: 20/20
-- Neural Network: 19.25/20
-- Deep Learning: 19/20
-- Machine Learning: 18.00/20
-- Computer Vision: 17.50/20
-- Pattern Recognition: 19/20
-- Evolutionary Computing: 17.00/20
-- Seminar: 20/20
+<div class="edu-item">
+  <h2 class="degree-title">B.Sc. in Computer Engineering</h2>
+  <span class="uni-name">Roshdiyeh Higher Education Institute</span>
+  <span class="edu-date">2017 — 2021</span>
+  
+  <div class="highlights-list">
+    <ul>
+      <li><strong>Orientation:</strong> Software Engineering.</li>
+      <li>Developed a strong foundation in Programming (C++, Java, Python), Algorithms, Data Structures, and Software Architecture.</li>
+      <li>Completed various projects in software development and database management.</li>
+    </ul>
+  </div>
+</div>
 
 ---
-<h1 style="color:#2c652e;">B.S. in Computer Engineering</h1>
-![Roshdiyeh](/images/Roshdiyeh.png){: .align-right}
-  Roshdiyeh University
-  2018 - 2022 | Tabriz, Iran
-- **GPA:** 3.16/4.00 (15.80/20.0)
 
-## Major-related courses:
-
-- Basics of Computational Intelligence: 16/20
-- Project: 20/20
-- Data Mining: 20/20
-- Advanced Programming Workshop: 20/20
-- Microprocessor Lab: 18/20
-- Logic circuits: 20/20
-- Logic circuits Lab: 20/20
-- Operating System: 20/20
-- Operating System Lab: 19/20
-- Computer Networks: 15/20
-- Computer Networks Lab: 20/20
-- Theory of Languages and Machines: 16/20
-- Algorithm Design: 16.50/20
-- Data Structures and Algorithms: 15/20
-
----
-
-# Diploma in Mathematics and Physics
-![Amin-high-school](/images/Amin-High-School.png){: .align-right width="275"}
-  Amin High School
-  2013 - 2017 | Tabriz, Iran
+### 📜 Relevant Coursework
+* **Advanced Deep Learning:** (PyTorch, CNNs, RNNs, Attention Mechanisms)
+* **Statistical Signal Processing:** (EEG filtering, Feature Extraction, MNE)
+* **Computer Vision:** (Image enhancement, Object detection, ViT)
+* **Pattern Recognition:** (Supervised and Unsupervised Learning)

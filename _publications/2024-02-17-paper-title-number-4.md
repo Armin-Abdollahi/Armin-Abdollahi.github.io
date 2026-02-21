@@ -2,11 +2,11 @@
 title: "Bone Age Estimation Through Hand X-Ray Analysis with Visual Transformer Model"
 collection: publications
 permalink: /publication/2025-10-17-bone-age-estimation-visual-transformer
-excerpt: 'This paper presents a method for estimating bone age using hand X-ray images and a Visual Transformer architecture.'
 date: 2025-10-17
-venue: 'The International Conference on Medicine and Artificial Intelligence in Health'
+venue: 'International Conference on Medicine and Artificial Intelligence'
+excerpt: 'This paper presents an automated approach using a Vision Transformer (ViT) model to improve the accuracy of bone age prediction from hand X-ray images, achieving a Mean Absolute Error of 3.2 months.'
 paperurl: 'https://www.researchgate.net/publication/396397607_Bone_Age_Estimation_Through_Hand_X-Ray_Analysis_with_Visual_Transformer_Model'
-citation: 'Author(s). (2025). "Bone Age Estimation Through Hand X-Ray Analysis with Visual Transformer Model." <i>—</i>.'
+codeurl: 'https://github.com/Armin-Abdollahi/Bone-Age-Estimation'
 ---
 
 

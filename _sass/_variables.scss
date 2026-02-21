@@ -1,22 +1,125 @@
 /* ==========================================================================
-   New Academic Deep Blue & Slate Palette
+   VARIABLES - Modern Academic Version (Deep Blue & Slate Grey)
    ========================================================================== */
 
-$family-primary: #1a2a3a; // Deep Blue
-$text-color: #2c3e50;
-$primary-color: #2980b9; // Bright Academic Blue for links
-$success-color: #27ae60;
-$warning-color: #f39c12;
-$danger-color: #c0392b;
+/*
+   Typography
+   ========================================================================== */
 
-/* Main colors */
-$background-color: #ffffff;
-$code-background-color: #f8f9fa;
-$border-color: #e9ecef;
+$doc-font-size              : 16;
 
-/* Masthead (Menu) */
-$masthead-link-color: $family-primary;
-$masthead-link-color-hover: $primary-color;
+/* paragraph indention */
+$paragraph-indent           : false; 
+$indent-var                 : 1.3em;
 
-/* Typography update */
-$global-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+/* system typefaces - Modern Stack */
+$sans-serif                 : "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$serif                      : "Charter", "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+$monospace                  : "JetBrains Mono", "Fira Code", Menlo, Monaco, Consolas, monospace;
+
+$global-font-family         : $sans-serif;
+$header-font-family         : $sans-serif;
+$caption-font-family        : $serif;
+
+/* type scale - Perfectly Balanced */
+$type-size-1                : 2.5rem;    
+$type-size-2                : 2rem;      
+$type-size-3                : 1.5rem;    
+$type-size-4                : 1.25rem;   
+$type-size-5                : 1.125rem;  
+$type-size-6                : 1rem;      
+$type-size-7                : 0.875rem;  
+$type-size-8                : 0.75rem;   
+
+/* masthead properties */
+$masthead-height            : 60px;
+
+/* Sidebar properties */
+$sidebar-min-width          : 1024px;
+$sidebar-link-max-width     : 250px;
+
+
+/*
+   Colors - Deep Blue & Slate Grey Palette
+   ========================================================================== */
+
+// Grayscale
+$white                      : #ffffff;
+$light-gray                 : #f1f4f6; // Very light slate
+$gray                       : #64748b; // Slate grey
+$dark-gray                  : #334155; // Slate dark
+$darker-gray                : #1e293b; // Near black slate
+
+// Brand Colors
+$primary-color              : #1a3a5f; // Deep Academic Blue (سرمه‌ای عمیق)
+$secondary-color            : #2980b9; // Bright Blue (برای تأکید)
+$info-color                 : #3498db;
+$success-color              : #10b981;
+$warning-color              : #f59e0b;
+$danger-color               : #ef4444;
+
+// Global UI Colors
+$body-color                 : $white;
+$background-color           : $white;
+$code-background-color      : #f8fafc;
+$text-color                 : $darker-gray;
+$muted-text-color           : $gray;
+$border-color               : #e2e8f0;
+
+/* Links */
+$link-color                 : $secondary-color;
+$link-color-hover           : $primary-color;
+$link-color-visited         : mix($white, $link-color, 15%);
+
+/* Masthead Navigation */
+$masthead-link-color        : $primary-color;
+$masthead-link-color-hover  : $secondary-color;
+
+/* Brands - Modernized Colors */
+$github-color               : #000000;
+$linkedin-color             : #0077b5;
+$google-plus-color          : #db4437; // Scholar
+$twitter-color              : #1da1f2;
+$orcid-color                : #a6ce39;
+$youtube-color              : #ff0000;
+
+
+/*
+   Breakpoints
+   ========================================================================== */
+
+@include breakpoint-set("to ems", true);
+
+$small                      : 600px !default;
+$medium                     : 768px !default;
+$medium-wide                : 900px !default;
+$large                      : 1024px !default;
+$x-large                    : 1280px !default;
+
+/*
+   Grid
+   ========================================================================== */
+
+$right-sidebar-width-narrow : 0px;
+$right-sidebar-width        : 0px;
+$right-sidebar-width-wide   : 0px;
+
+$susy: (
+  columns: 12,
+  column-width: 120px,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: $large,
+  global-box-sizing: border-box,
+);
+
+
+/*
+   Global Effects
+   ========================================================================== */
+
+$border-radius              : 8px; // Rounded more for modern look
+$box-shadow                 : 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$global-transition          : all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

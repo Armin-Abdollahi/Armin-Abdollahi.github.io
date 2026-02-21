@@ -46,29 +46,32 @@ author_profile: true
   }
 </style>
 
-## 🎓 Master's Thesis & Extracted Publications
+## 🎓 Master's Thesis & Extracted Journal Papers
 
 <div class="research-card">
   <div class="research-header">
     <span class="status-badge">Grade: 20/20</span>
-    <h3 style="color: white; margin: 0;">Transformer-based Signal Decoding in BCI</h3>
+    <h3 style="color: white; margin: 0;">Developing Transformer-based Deep Learning model for Signal Decoding in BCI</h3>
   </div>
   <div class="research-body">
-    <p><strong>Core Research:</strong> Developing neurophysiologically valid Deep Learning models to decode neural intent. This research led to two major journal publications (Under Review at BSPC):</p>
-    <ul>
-      <li><strong>Project 1: The Illusion of Accuracy.</strong> Using XAI (Grad-CAM, RSA) to prove that SOTA CNNs often rely on high-amplitude artifacts (EOG/EMG) rather than actual neural features.</li>
-      <li><strong>Project 2: NeuroValid Benchmark.</strong> Validating <strong>Convolutional Transformers (CvT)</strong> on strictly filtered EEG signals to ensure robust, artifact-resistant decoding.</li>
+    <p><strong>Thesis Overview:</strong> Pioneered the development of neurophysiologically robust architectures to decode motor intent from EEG signals. This research exposed the "Clever Hans" effect in SOTA models and led to two major journal publications (Under Review at <i>Biomedical Signal Processing and Control - BSPC</i>):</p>
+    
+    <ul style="margin-bottom: 20px;">
+      <li><strong>Paper 1: The Illusion of Accuracy in Rehabilitation BCI.</strong> An Explainable AI (XAI) investigation using Grad-CAM, Saliency Maps, and RSA to prove that high-performance CNNs often learn high-amplitude ocular artifacts (EOG) rather than true neural intent.</li>
+      <li><strong>Paper 2: A Robust Benchmark for Rehabilitation BCI.</strong> Validating <strong>Convolutional Transformers (CvT)</strong> on neurophysiologically isolated EEG signals to ensure safe and reliable intent decoding for clinical use.</li>
     </ul>
+
     <div>
       <span class="tech-tag">Explainable AI (XAI)</span>
-      <span class="tech-tag">Convolutional Transformers</span>
-      <span class="tech-tag">Artifact Removal</span>
-      <span class="tech-tag">MNE-Python</span>
+      <span class="tech-tag">Convolutional Transformers (CvT)</span>
+      <span class="tech-tag">RSA Analysis</span>
+      <span class="tech-tag">Artifact Robustness</span>
+      <span class="tech-tag">Optuna</span>
     </div>
   </div>
 </div>
 
-## 🔬 Independent Research Projects
+## 🔬 Independent & Applied Research
 
 <div class="research-card">
   <div class="research-header" style="background: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);">
@@ -76,11 +79,12 @@ author_profile: true
     <h3 style="color: white; margin: 0;">Speech BCI: Imagined Speech Decoding</h3>
   </div>
   <div class="research-body">
-    <p>Developing a <strong>Spectro-Temporal Transformer</strong> architecture for the classification of phonemes and words from imagined speech using the <strong>KARA ONE</strong> dataset. This project is independent of my thesis and focuses on assistive communication interfaces.</p>
+    <p><strong>Independent Project:</strong> Developing an end-to-end <strong>Spectro-Temporal Transformer</strong> architecture to classify phonemes and words directly from EEG signals using the <strong>KARA ONE</strong> dataset. This work focuses on building robust silent communication interfaces independent of my thesis research.</p>
     <div>
       <span class="tech-tag">Spectro-Temporal Modeling</span>
-      <span class="tech-tag">KARA ONE</span>
+      <span class="tech-tag">KARA ONE Dataset</span>
       <span class="tech-tag">Assistive Tech</span>
+      <span class="tech-tag">SHAP</span>
     </div>
   </div>
 </div>
@@ -88,21 +92,78 @@ author_profile: true
 <div class="research-card">
   <div class="research-header" style="background: linear-gradient(135deg, #1e293b 0%, #64748b 100%);">
     <span class="status-badge" style="background: #9b59b6;">Completed</span>
-    <h3 style="color: white; margin: 0;">Bone Age Estimation (Medical Vision)</h3>
+    <h3 style="color: white; margin: 0;">Bone Age Estimation (Medical Computer Vision)</h3>
   </div>
   <div class="research-body">
-    <p>Application of <strong>Vision Transformers (ViT)</strong> for pediatric growth assessment using hand X-ray images. This work was presented as a poster at international conferences (Germany & Tehran).</p>
+    <p>Implemented a <strong>Vision Transformer (ViT)</strong> for regression analysis on pediatric hand X-ray images. This project achieved a lower Mean Absolute Error (MAE) compared to traditional CNNs and was presented at the <strong>AIMS</strong> and <strong>IOAS</strong> conferences (Tehran & Germany).</p>
     <div>
-      <span class="tech-tag">Vision Transformer</span>
+      <span class="tech-tag">Vision Transformer (ViT)</span>
       <span class="tech-tag">Medical Imaging</span>
-      <span class="tech-tag">Regression</span>
+      <span class="tech-tag">Regression Analysis</span>
     </div>
   </div>
 </div>
 
 ---
 
-## 📚 Publications Summary
-* **Book:** Persian Translation of *"BCI: A State-of-the-Art Summary 12"* (Published 2026).
-* **Journals:** 2 papers on BCI Robustness and XAI (Under Review).
-* **Conference:** Bone Age Estimation via ViT (Poster Presentation).
+## 🛠 Technical Stack & Methodologies
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px;">
+
+  <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+    <h4 style="color: #1a3a5f; margin-top: 0;"><i class="fa fa-code"></i> AI & Modeling</h4>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">PyTorch</span>
+      <span class="tech-tag">Transformers (CvT, ViT)</span>
+      <span class="tech-tag">Optuna</span>
+      <span class="tech-tag">XAI (SHAP, Grad-CAM)</span>
+    </div>
+  </div>
+
+  <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+    <h4 style="color: #1a3a5f; margin-top: 0;"><i class="fa fa-braille"></i> Neuro-Engineering</h4>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+      <span class="tech-tag">MNE-Python</span>
+      <span class="tech-tag">EEGLAB</span>
+      <span class="tech-tag">fNIRS/EEG Recording</span>
+      <span class="tech-tag">ASR / ICA</span>
+      <span class="tech-tag">RSA Analysis</span>
+    </div>
+  </div>
+
+</div>
+
+<div style="margin-top: 30px; background: #1a3a5f; padding: 25px; border-radius: 12px; color: white;">
+  <h4 style="color: white; margin-top: 0; margin-bottom: 20px;">Methodological Proficiency</h4>
+  
+  <div style="margin-bottom: 15px;">
+    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+      <span>Deep Learning (PyTorch & Transformers)</span>
+      <span>95%</span>
+    </div>
+    <div style="background: rgba(255,255,255,0.2); height: 8px; border-radius: 4px;">
+      <div style="background: #10b981; width: 95%; height: 100%; border-radius: 4px;"></div>
+    </div>
+  </div>
+
+  <div style="margin-bottom: 15px;">
+    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+      <span>Neural Signal Processing (EEG/fNIRS)</span>
+      <span>90%</span>
+    </div>
+    <div style="background: rgba(255,255,255,0.2); height: 8px; border-radius: 4px;">
+      <div style="background: #3498db; width: 90%; height: 100%; border-radius: 4px;"></div>
+    </div>
+  </div>
+
+  <div style="margin-bottom: 0;">
+    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+      <span>Explainable AI & Model Validation</span>
+      <span>85%</span>
+    </div>
+    <div style="background: rgba(255,255,255,0.2); height: 8px; border-radius: 4px;">
+      <div style="background: #f59e0b; width: 85%; height: 100%; border-radius: 4px;"></div>
+    </div>
+  </div>
+</div>

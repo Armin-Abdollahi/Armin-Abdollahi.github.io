@@ -50,73 +50,89 @@ author_profile: true
   }
 </style>
 
-## 🧠 Current Research & Thesis
+## 🧠 Core Research (Neuro-AI & BCI)
 
 <div class="research-card">
   <div class="research-header">
-    <span class="status-badge">Completed (20/20)</span>
-    <h3 style="color: white; margin: 0;">Transformer-based Signal Decoding in BCI</h3>
+    <span class="status-badge" style="background: #1a3a5f; border: 1px solid white;">Active Project</span>
+    <h3 style="color: white; margin: 0;">NeuroValid: Robust BCI Benchmarking</h3>
   </div>
   <div class="research-body">
-    <p><strong>Master's Thesis:</strong> Developing a state-of-the-art Transformer architecture for multi-class imagined speech decoding using the <strong>KARA ONE</strong> dataset.</p>
-    <div>
-      <span class="tech-tag">PyTorch</span>
-      <span class="tech-tag">Self-Attention</span>
-      <span class="tech-tag">EEG Signal Processing</span>
-      <span class="tech-tag">NeuroAI</span>
-    </div>
-    <div style="margin-top: 15px;">
-      <img src="https://github.com/user-attachments/assets/36bbc47d-6e87-4e53-a2da-55f3adfabf7f" alt="Thesis Architecture" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
-    </div>
-  </div>
-</div>
-
-## 🔬 Active Investigations
-
-<div class="research-card">
-  <div class="research-header">
-    <span class="status-badge" style="background: #f59e0b;">Under Review</span>
-    <h3 style="color: white; margin: 0;">The Illusion of Accuracy in Rehabilitation BCI</h3>
-  </div>
-  <div class="research-body">
-    <p>An Explainable AI (XAI) study investigating how CNNs often learn non-neural artifacts (muscular/ocular noise). We propose <strong>Transformers</strong> as a robust solution that focuses on true neural intent via Saliency Maps and RSA.</p>
+    <p><strong>Explainable Deep Learning:</strong> Developed a comparative benchmark using <strong>Optuna</strong> to evaluate CNNs (EEGNet) vs. Convolutional Transformers (CvT). I utilized <strong>Grad-CAM</strong> and <strong>RSA</strong> to expose the "Clever Hans" effect, proving that SOTA models often overfit to ocular artifacts (EOG) instead of true neural intent.</p>
     <div>
       <span class="tech-tag">XAI</span>
-      <span class="tech-tag">Saliency Maps</span>
+      <span class="tech-tag">Convolutional Transformer (CvT)</span>
+      <span class="tech-tag">Optuna</span>
       <span class="tech-tag">RSA Analysis</span>
-      <span class="tech-tag">Artifact Removal</span>
     </div>
   </div>
 </div>
 
 <div class="research-card">
   <div class="research-header">
-    <span class="status-badge" style="background: #3498db;">In Progress</span>
-    <h3 style="color: white; margin: 0;">Hydrocephalus Classification using Deep Learning</h3>
+    <span class="status-badge">Thesis Focus (20/20)</span>
+    <h3 style="color: white; margin: 0;">Silent Communication & Imagined Speech</h3>
   </div>
   <div class="research-body">
-    <p>Applying advanced Computer Vision techniques to classify different stages of Hydrocephalus from medical imaging data, aiming for early diagnostic support.</p>
+    <p><strong>Master's Thesis:</strong> Engineering an end-to-end <strong>Spectro-Temporal Transformer</strong> architecture to decode phonemes and words from EEG signals using the <strong>KARA ONE</strong> dataset. Focus includes mitigating EMG contamination while capturing long-range temporal dependencies.</p>
     <div>
-      <span class="tech-tag">Medical Imaging</span>
-      <span class="tech-tag">Deep Learning</span>
-      <span class="tech-tag">Classification</span>
+      <span class="tech-tag">Hybrid Transformer-RNN</span>
+      <span class="tech-tag">Spectro-Temporal Modeling</span>
+      <span class="tech-tag">KARA ONE Dataset</span>
+      <span class="tech-tag">SHAP</span>
+    </div>
+    <div style="margin-top: 15px;">
+      <img src="https://github.com/user-attachments/assets/36bbc47d-6e87-4e53-a2da-55f3adfabf7f" alt="Neural Architecture" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+    </div>
+  </div>
+</div>
+
+## 🔬 Multimodal & Applied AI
+
+<div class="research-card">
+  <div class="research-header">
+    <span class="status-badge" style="background: #3498db;">Laboratory Internship</span>
+    <h3 style="color: white; margin: 0;">Multimodal Neuro-Imaging (NBML)</h3>
+  </div>
+  <div class="research-body">
+    <p>Hands-on expertise at the <strong>National Brain Mapping Laboratory</strong> in recording and analyzing <strong>fNIRS</strong> and <strong>EEG</strong> signals. Designed experimental paradigms for neuro-cognitive assessments and neurofeedback.</p>
+    <div>
+      <span class="tech-tag">fNIRS</span>
+      <span class="tech-tag">Signal Recording</span>
+      <span class="tech-tag">MNE-Python</span>
+      <span class="tech-tag">Experimental Design</span>
+    </div>
+  </div>
+</div>
+
+<div class="research-card">
+  <div class="research-header">
+    <span class="status-badge" style="background: #64748b;">Computer Vision</span>
+    <h3 style="color: white; margin: 0;">Vision Transformers for Medical Imaging</h3>
+  </div>
+  <div class="research-body">
+    <p>Implemented <strong>Vision Transformers (ViT)</strong> for pediatric bone age estimation on hand X-ray images, achieving lower MAE compared to traditional CNN baselines.</p>
+    <div>
+      <span class="tech-tag">ViT</span>
+      <span class="tech-tag">Regression</span>
+      <span class="tech-tag">Pediatric Care</span>
     </div>
   </div>
 </div>
 
 ---
 
-## 📊 Technical Skills Summary
+## 📊 Technical Stack & Methodologies
 <div style="background: #f8fafc; padding: 20px; border-radius: 12px; border: 1px dashed #cbd5e1;">
   <div style="display: flex; flex-wrap: wrap; gap: 20px;">
     <div style="flex: 1; min-width: 200px;">
-      <strong>Modeling:</strong> Transformers, CNNs, ViT, GNNs
+      <strong>Architectures:</strong> CvT, ViT, Hybrid Transformer-RNN, 1D-CNN
     </div>
     <div style="flex: 1; min-width: 200px;">
-      <strong>Tools:</strong> PyTorch, MNE-Python, EEGLAB, MATLAB
+      <strong>Signal Tools:</strong> MNE-Python, EEGLAB, BioSig, ASR/ICA
     </div>
     <div style="flex: 1; min-width: 200px;">
-      <strong>Analysis:</strong> Signal Denoising, RSA, Interpretability
+      <strong>Deep Learning:</strong> PyTorch, TensorFlow, Optuna, Hugging Face
     </div>
   </div>
 </div>

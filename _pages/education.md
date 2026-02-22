@@ -51,17 +51,23 @@ author_profile: true
 <div class="edu-item">
   <h2 class="degree-title">M.Sc. in Artificial Intelligence</h2>
   <span class="uni-name">Azad University, Tehran North Branch</span>
-  <span class="edu-date">2023 — 2025</span>
+  <span class="edu-date">2023 — Graduated 2025</span>
   
   <div class="highlights-list">
     <ul>
       <li><strong>Master's Thesis:</strong> "Developing Transformer-based Deep Learning models for Signal Decoding in Brain-Computer Interface"</li>
       <li><strong>Thesis Grade:</strong> <span class="grade-badge">20 / 20</span> (Perfect Score)</li>
-      <li><strong>Focus Areas:</strong> Deep Learning, Neural Signal Processing (EEG), Transformers, Vision Transformers (ViT).</li>
-      <li><strong>Rank:</strong> Top student in the AI department.</li>
+      <li><strong>Rank:</strong> Top student in the AI department</li>
+      <li><strong>Core Focus & Expertise:</strong>
+        <ul style="margin-top: 5px; list-style-type: circle;">
+          <li><strong>Neuro-AI & BCI:</strong> Robust Motor Imagery decoding and Signal Denoising.</li>
+          <li><strong>Architectures:</strong> Convolutional Transformers (CvT), Hybrid Transformer-RNNs, and ViTs.</li>
+          <li><strong>Explainable AI (XAI):</strong> Model Interpretability (Grad-CAM, SHAP) and Artifact-Dependency analysis (RSA).</li>
+          <li><strong>Optimization:</strong> Automated Machine Learning via Hyperparameter Optimization (Optuna).</li>
+        </ul>
+      </li>
     </ul>
   </div>
-</div>
 
 <div class="edu-item">
   <h2 class="degree-title">B.Sc. in Computer Engineering</h2>
@@ -79,8 +85,10 @@ author_profile: true
 
 ---
 
-### 📜 Relevant Coursework
-* **Advanced Deep Learning:** (PyTorch, CNNs, RNNs, Attention Mechanisms)
-* **Statistical Signal Processing:** (EEG filtering, Feature Extraction, MNE)
-* **Computer Vision:** (Image enhancement, Object detection, ViT)
-* **Pattern Recognition:** (Supervised and Unsupervised Learning)
+### 📜 Relevant Coursework & Academic Expertise
+
+* **Advanced Deep Learning:** Architecture design using **PyTorch**, focusing on **Convolutional Transformers (CvT)**, **Vision Transformers (ViT)**, and Hybrid Transformer-RNN models.
+* **Digital Signal Processing (DSP):** Neural signal analysis, advanced **EEG filtering**, artifact removal techniques (**ICA, ASR**), and feature extraction using **MNE-Python** and **EEGLAB**.
+* **Digital Image Processing:** Implementation of **U-Net** architectures for medical image segmentation and spatial enhancement algorithms.
+* **Machine Learning:** Statistical pattern recognition, model evaluation, and automated hyperparameter optimization using **Optuna**.
+* **Computational Neuroscience:** Exploring the synergy between biological neural principles and artificial intelligence architectures.

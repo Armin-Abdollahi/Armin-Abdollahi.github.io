@@ -1,25 +1,16 @@
 # main links links
 main:
-  - title: "Education"
-    url: /education/
+  - title: "Research"
+    url: /#research
 
   - title: "Publications"
     url: /publications/
 
-  - title: "Research"
-    url: /research/    
-
   - title: "Projects"
     url: /projects/
 
-  - title: "Teaching"
-    url: /teaching/    
-        
   - title: "CV"
-    url: /files/Armin_Abdollahi_CV.pdf
-    
-  - title: "Certificates"
-    url: /certificates/ 
+    url: /cv/
 
-  - title: "Internship"
-    url: /internship/ 
+  - title: "Teaching"
+    url: /teaching/

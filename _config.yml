@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Armin Abdollahi"
-title_separator          : "-"
-name                     : &name "Armin's Homepage"
-description              : &description "personal description"
+title_separator          : "|"
+name                     : &name "Armin Abdollahi — NeuroAI & BCI"
+description              : &description "Armin Abdollahi is an AI researcher focused on EEG, brain-computer interfaces, and reliable neural signal decoding."
 url                      : https://Armin-Abdollahi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Armin-Abdollahi/Armin-Abdollahi.github.io"
@@ -21,10 +21,10 @@ repository               : "Armin-Abdollahi/Armin-Abdollahi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "IMGL5775.JPG"
+  avatar           : "Armin2.png"
   name             : "Armin Abdollahi"
   pronouns         : # example: "she/her"  
-  bio              : "MSc in Artificial Intelligence"
+  bio              : "NeuroAI researcher · EEG & Brain–Computer Interfaces"
   location         : "Tehran, Iran"
   employer         : "Azad University, Tehran North Branch"
   uri              : "https://ntb.iau.ir/en"
@@ -77,7 +77,7 @@ author:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -125,7 +125,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "/images/Armin2.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -136,7 +136,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : false # Set to a configured analytics provider when a tracking ID is available.
   google:
     tracking_id          :
 
@@ -147,6 +147,7 @@ include:
   - _pages
   - files
 exclude:
+  - talkmap
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -232,14 +233,14 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _teaching
   - scope:
       path: ""
       type: teaching
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
   # _publications
@@ -248,7 +249,7 @@ defaults:
       type: publications
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
   # _portfolio
@@ -257,7 +258,7 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comment: true
   # _talks
@@ -266,7 +267,7 @@ defaults:
       type: talks
     values:
       layout: talk
-      author_profile: true
+      author_profile: false
       share: true
 
 
@@ -280,7 +281,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Tehran
 
 
 # Plugins

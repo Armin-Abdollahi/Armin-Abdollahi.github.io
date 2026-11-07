@@ -1,44 +1,16 @@
 {% include base_path %}
-
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-
-<div class="{{ include.type | default: 'list' }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="border-left: 5px solid #1a3a5f; padding: 1.5em; margin-bottom: 2em; background: #ffffff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border-radius: 0 8px 8px 0;">
-    
-    <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0;">
-      {% if post.link %}
-        <a href="{{ post.link }}" style="color: #1a3a5f; text-decoration: none;">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="color: #1a3a5f; text-decoration: none;">{{ title }}</a>
-      {% endif %}
-    </h2>
-
-    <p style="font-size: 0.9em; color: #64748b;">
-      {% if post.collection == 'teaching' %}
-        <i class="fa fa-graduation-cap"></i> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}
-      {% elsif post.collection == 'publications' %}
-        <i class="fa fa-book"></i> Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}
-      {% endif %}
-    </p>
-
-    {% if post.excerpt %}
-      <div class="archive__item-excerpt" itemprop="description" style="font-size: 0.95em; line-height: 1.6;">
-        {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
-      </div>
-    {% endif %}
-
-    <div style="margin-top: 15px; display: flex; gap: 10px;">
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" style="background: #1a3a5f; color: white; padding: 5px 15px; border-radius: 20px; text-decoration: none; font-size: 0.85em;">PDF</a>
-      {% endif %}
-      {% if post.codeurl %}
-        <a href="{{ post.codeurl }}" style="background: #2980b9; color: white; padding: 5px 15px; border-radius: 20px; text-decoration: none; font-size: 0.85em;">Code</a>
-      {% endif %}
-    </div>
-
-  </article>
-</div>
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+<article class="publication-card" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="publication-card__top">
+    {% if post.status %}<span class="publication-status{% if post.status == 'Under review' %} is-review{% endif %}">{{ post.status }}</span>{% endif %}
+    {% if post.date %}{% if post.status == 'Published translation' %}<span>{{ post.date | date: "%Y" }}</span>{% else %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time>{% endif %}{% endif %}
+  </div>
+  <h2 class="publication-card__title" itemprop="headline"><a href="{{ base_path }}{{ post.url }}">{{ title }}</a></h2>
+  {% if post.venue %}<p class="publication-card__venue">{{ post.venue }}</p>{% endif %}
+  {% if post.excerpt %}<p class="publication-card__excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
+  <div class="publication-card__links">
+    <a href="{{ base_path }}{{ post.url }}">Details <span aria-hidden="true">↗</span></a>
+    {% if post.codeurl %}<a href="{{ post.codeurl }}" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>{% endif %}
+    {% if post.paperurl and post.paperurl != '#' %}<a href="{{ post.paperurl }}" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>{% endif %}
+  </div>
+</article>

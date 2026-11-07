@@ -1,17 +1,14 @@
 ---
-title: "Transformer-based Deep Learning for Imagined Speech Decoding using KARA ONE Dataset"
+title: "Transformer-based Deep Learning for Imagined Speech Decoding using the KARA ONE Dataset"
 collection: publications
 permalink: /publication/2025-09-30-transformer-imagined-speech
 date: 2025-09-30
-venue: 'Master’s Thesis - Azad University (Grade: 20/20)'
-excerpt: 'This research presents a novel Transformer architecture to decode imagined speech from EEG signals, achieving significant improvements over baseline CNN models.'
-paperurl: '#'
-codeurl: 'https://github.com/Armin-Abdollahi/imagined-speech-transformer'
+venue: 'M.Sc. thesis — Islamic Azad University, North Tehran Branch (20/20)'
+status: "Master's thesis"
+excerpt: 'Master’s thesis on EEG-based imagined speech decoding, with a focus on preprocessing, artifact mitigation, and Transformer models.'
+codeurl: 'https://github.com/Armin-Abdollahi/Comparative-Deep-Learning-for-BCI-CNNs-vs-Transformers-in-EEG-Signal-Decoding'
 ---
 
-This work represents my Master's thesis, which received a **perfect score of 20/20**. 
+My M.Sc. thesis examined Transformer-based deep learning for signal decoding in brain–computer interfaces. The imagined speech work uses the KARA ONE dataset and studies how EEG preprocessing and artifact mitigation affect model evaluation.
 
-### Highlights:
-- Utilized the **KARA ONE** dataset for multi-class imagined speech classification.
-- Implemented a **Transformer** model to capture long-range dependencies in EEG time-series data.
-- Demonstrated that self-attention mechanisms are superior to traditional convolutions for non-stationary neural signals.
+The thesis was defended with a score of **20/20**. The related imagined speech project is a joint project and remains in progress.

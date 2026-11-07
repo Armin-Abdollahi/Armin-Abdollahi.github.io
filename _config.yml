@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Armin Abdollahi"
 title_separator          : "|"
 name                     : &name "Armin Abdollahi — NeuroAI & BCI"
-description              : &description "Armin Abdollahi is an AI researcher focused on EEG, brain-computer interfaces, and reliable neural signal decoding."
+description              : &description "Armin Abdollahi is an AI researcher working across brain-computer interfaces, EEG, and human-computer interaction."
 url                      : https://Armin-Abdollahi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Armin-Abdollahi/Armin-Abdollahi.github.io"
@@ -24,10 +24,10 @@ author:
   avatar           : "Armin2.png"
   name             : "Armin Abdollahi"
   pronouns         : # example: "she/her"  
-  bio              : "NeuroAI researcher · EEG & Brain–Computer Interfaces"
+  bio              : "AI researcher · BCI, EEG & Human–Computer Interaction"
   location         : "Tehran, Iran"
-  employer         : "Azad University, Tehran North Branch"
-  uri              : "https://ntb.iau.ir/en"
+  employer         : "White Tree International Academy"
+  uri              : "https://armin-abdollahi.github.io/"
   email            : "armin.abdollahi.64@gmail.com" 
 
   # Academic websites
@@ -148,6 +148,7 @@ include:
   - files
 exclude:
   - talkmap
+  - markdown_generator
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -201,7 +202,7 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true

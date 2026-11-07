@@ -5,33 +5,51 @@ permalink: /projects/
 author_profile: false
 ---
 
-Research and applied projects that connect machine learning with biomedical signals and imaging. Project status and publication status are described separately.
+Applied work across neural interfaces, biosignal analysis and cognitive interaction. The descriptions below focus on implementation and scope; they do not imply clinical validation.
 
-## NeuroValid · EEG model evaluation
+## SyncNeurons · Neurotechnology platform {#syncneurons}
 
-**Question:** Does a model keep useful performance when evaluation focuses on a more specific neural frequency band?<br>
-**Work:** Comparative evaluation of EEGNet, Vision Transformers, and Convolutional Transformers across isolated EEG bands; Optuna for model search; RSA and explainability methods to inspect learned representations. Thesis-reported CvT F1 on strictly filtered Mu-band data: **80.78%**.<br>
-**Related manuscript:** Under review at *Biomedical Signal Processing and Control*.<br>
-[View project on GitHub](https://github.com/Armin-Abdollahi/NeuroValid-BCI-DeepLearning)
+**Role:** Founder, CEO & Chief Architect
+Building an AI and neurotechnology platform around biosignals and connected data workflows. My focus includes core neural-network architecture, real-time EEG processing, explainable AI, system strategy and zero-trust data architecture.
 
-## BCI-XAI · Investigating artifact dependence
+[SyncNeurons platform](https://syncneurons.com/) · [فارسی](https://syncneurons.ir/) · [GitHub organization](https://github.com/SyncNeurons) · [LinkedIn](https://www.linkedin.com/company/syncneurons/)
 
-**Question:** Are classifiers responding to neural activity or correlated ocular artifacts?<br>
-**Work:** Explainability-driven investigation using Grad-CAM, saliency maps, and Representational Similarity Analysis to study CNN behavior in rehabilitation BCI.<br>
-**Related manuscript:** Under review at *Biomedical Signal Processing and Control*.<br>
-[View project on GitHub](https://github.com/Armin-Abdollahi/BCI-XAI-Rehabilitation-Validity)
+## EEG analysis and reporting {#eeg-analytics}
 
-## Imagined speech · KARA ONE
+Designed and developed an automated analysis system for EEG data from Emotiv devices for an international psychology center. Work included EEG signal processing, machine-learning models for metrics such as attention and stress, a Python backend, report generation and an interactive dashboard.
 
-**Question:** Can EEG support silent communication when speech-related muscle signals contaminate the recordings?<br>
-**Work:** Joint project contributing preprocessing and artifact rejection (ICA, ASR), data preparation and feature extraction, and SHAP-based inspection of a co-developed spectro-temporal Transformer. The work remains in progress.<br>
-[View project on GitHub](https://github.com/Armin-Abdollahi/Comparative-Deep-Learning-for-BCI-CNNs-vs-Transformers-in-EEG-Signal-Decoding)
+**Role:** Lead system designer and developer. The system supported assessment workflows; it is not presented here as a diagnostic product.
 
-## Bone age estimation · Vision Transformer
+[Signal-processing tutorials and implementations on GitHub](https://github.com/Armin-Abdollahi/Signal-Processing)
 
-Implemented a ViT for regression on hand X-ray images from the Atlas dataset. The CV reports a 12% MAE reduction versus traditional CNN baselines. The work was presented at AIMS (Tehran, 2025) and IOAS (Germany, 2025); the IOAS poster appeared in conference proceedings.<br>
-[View project on GitHub](https://github.com/Armin-Abdollahi/Bone-Age-Estimation) · [View publication details](/publication/2025-10-17-bone-age-estimation-visual-transformer)
+## Cognitive assessment games {#cognitive-games}
 
-## Tools across projects
+Designed and developed interactive activities for visual memory, visual attention, eye–hand coordination, selective attention, digit memory and reaction time. The activities were adapted for children and adults; Python analysis produced performance summaries, charts and comparisons for the partnering center.
 
-Python · PyTorch · MNE-Python · EEGLAB · ICA · ASR · Optuna · SHAP · Grad-CAM · RSA · Vision and Convolutional Transformers
+**Role:** Lead designer and developer across the game experience, UI/UX and analysis workflow.
+
+## Motor-imagery BCI
+
+An ongoing area of research and implementation connected to my graduate work and comparative study of convolutional and transformer architectures for subject-independent motor-imagery decoding.
+
+[MotorImagery-BCI repository](https://github.com/Armin-Abdollahi/MotorImagery-BCI)
+
+## Bone-age estimation from hand X-rays
+
+Implemented a Visual Transformer model for hand X-ray bone-age estimation. The associated paper has been accepted. The project is also available as a public GitHub repository.
+
+[Bone-Age-Estimation repository](https://github.com/Armin-Abdollahi/Bone-Age-Estimation)
+
+## BCI book translation
+
+Persian translation of *Brain–Computer Interface Research: A State-of-the-Art Summary* (Volume 12), originally published by Springer and written by Christoph Guger.
+
+## EEG learning resources
+
+I have also published tutorials and implementations on EEG handling, preprocessing and artifact removal using EEGLAB and MNE-Python.
+
+[Signal-Processing repository](https://github.com/Armin-Abdollahi/Signal-Processing)
+
+## Selected methods and tools
+
+Python · PyTorch · EEG signal processing · MNE-Python · EEGLAB · machine learning · model interpretability · backend and dashboard development

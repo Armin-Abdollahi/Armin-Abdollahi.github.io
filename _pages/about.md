@@ -1,77 +1,102 @@
 ---
 permalink: /
 title: ""
-excerpt: "Armin Abdollahi — BCI, EEG and human–computer interaction research."
+excerpt: "Armin Abdollahi · Brain–computer interfaces, EEG and artificial intelligence."
 author_profile: false
+portfolio: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<main class="neuro-home" id="top">
-  <section class="neuro-hero" aria-labelledby="hero-title">
-    <div class="hero-copy">
-      <p class="eyebrow"><span class="signal-dot"></span> BCI <i>·</i> EEG <i>·</i> HCI</p>
-      <h1 id="hero-title">Interfaces begin<br>with a <em>signal.</em></h1>
-      <p class="hero-intro">I’m Armin Abdollahi, an AI researcher and engineer exploring how brain signals can become more useful, interpretable ways for people to interact with technology.</p>
-      <div class="hero-areas"><span>Motor imagery</span><span>Imagined speech</span><span>Human–computer interaction</span></div>
-      <div class="hero-links"><a class="button button-primary" href="#work">Explore selected work <span>↘</span></a><a class="text-link" href="mailto:armin.abdollahi.64@gmail.com">Get in touch ↗</a></div>
-      <p class="hero-note">M.Sc. Artificial Intelligence · University of Tehran <span>Based in Tehran, Iran</span></p>
-    </div>
-    <div class="signal-scene" data-signal-scene>
-      <canvas class="signal-canvas" aria-label="Interactive 3D-inspired visualization of a neural signal network"></canvas>
-      <div class="scene-vignette"></div>
-      <div class="scene-heading"><span>NEURAL INTERFACE / 01</span><span class="scene-live"><i></i> SIGNAL MODEL</span></div>
-      <div class="scene-caption"><span class="scene-icon">⌁</span><span><b data-scene-title>Motor imagery</b><small data-scene-subtitle>Sensorimotor rhythms · EEG</small></span></div>
-      <div class="scene-controls" role="group" aria-label="Choose a research signal">
-        <button type="button" class="scene-control is-active" data-scene="motor" aria-pressed="true">01 <span>Motor imagery</span></button>
-        <button type="button" class="scene-control" data-scene="speech" aria-pressed="false">02 <span>Imagined speech</span></button>
-        <button type="button" class="scene-control" data-scene="hci" aria-pressed="false">03 <span>Adaptive HCI</span></button>
+<div class="portfolio-shell" id="home">
+  <header class="portfolio-nav">
+    <a class="brand" href="#home" aria-label="Armin Abdollahi home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 8c-4-5-12-2-12 4-6 1-7 9-2 12-4 5-1 12 5 12 2 6 8 6 11 2M24 8c4-5 12-2 12 4 6 1 7 9 2 12 4 5 1 12-5 12-2 6-8 6-11 2M24 8v30M16 13l6 5-6 5m16-10-6 5 6 5m-18 8 7-5m14 5-7-5"/></svg></span><span><b>ARMIN ABDOLLAHI</b><small>NEURAL DECODING & BCI</small></span></a>
+    <nav aria-label="Main navigation"><a class="is-current" href="#home">Home</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="/cv/">CV</a><a href="https://scholar.google.com/citations?user=_lXpoGEAAAAJ&amp;hl=en" target="_blank" rel="noopener">Scholar ↗</a><a href="https://github.com/Armin-Abdollahi" target="_blank" rel="noopener">GitHub ↗</a><a href="#contact">Contact</a></nav>
+    <span class="nav-specialty">BCI <i>·</i> EEG <i>·</i> AI</span>
+    <button class="nav-menu" type="button" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero-dashboard" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="overline"><span class="status-led"></span> RESEARCHER & ENGINEER <span class="overline-separator">/</span> TEHRAN, IRAN</p>
+        <h1 id="hero-title">Decoding<br>cortical dynamics<br><span>with AI.</span></h1>
+        <p class="hero-summary">I’m Armin Abdollahi. I work across <strong>brain–computer interfaces, EEG and artificial intelligence</strong>—with a focus on how neural signals become meaningful human–computer interaction.</p>
+        <div class="hero-specialties"><span><i class="specialty-icon icon-brain">⌘</i> BCI</span><span><i class="specialty-icon icon-wave">∿</i> EEG</span><span><i class="specialty-icon icon-ai">✳</i> Deep Learning</span><span><i class="specialty-icon icon-network">⠿</i> HCI</span></div>
+        <div class="hero-actions"><a href="#research" class="action-primary">Explore my work <span>↘</span></a><a href="mailto:armin.abdollahi.64@gmail.com" class="action-secondary">Contact me <span>↗</span></a></div>
       </div>
-      <span class="scene-hint">DRAG TO ROTATE</span>
-    </div>
-    <div class="hero-index"><span>01 / RESEARCH & PRACTICE</span><span>SCROLL TO EXPLORE ↓</span></div>
-  </section>
 
-  <section class="intro-band" id="research">
-    <div class="section-kicker"><span>01</span><span>THE THROUGH-LINE</span></div>
-    <div class="intro-content"><h2>From neural activity<br>to <em>human agency.</em></h2><p>My interests sit where brain–computer interfaces, EEG and human–computer interaction meet. I’m drawn to the whole path: how a signal is recorded, how a model interprets it, and how a person experiences the resulting interaction.</p><p>That perspective connects my academic work in motor imagery and imagined speech with applied systems for EEG analysis and cognitive interaction. I’m interested in building interfaces that are useful to people and careful about what the data can actually tell us.</p></div>
-    <div class="intro-mark" aria-hidden="true"><span>EEG</span><b>→</b><span>AI</span><b>→</b><span>HCI</span></div>
-  </section>
+      <div class="brain-stage" data-brain-stage>
+        <img class="brain-art" src="/images/neural-brain-hero.webp" alt="" fetchpriority="high">
+        <canvas class="brain-webgl" aria-hidden="true"></canvas>
+        <div class="brain-grid" aria-hidden="true"></div>
+        <div class="brain-scan" aria-hidden="true"></div>
+        <span class="brain-marker marker-c3">C3 <i></i></span><span class="brain-marker marker-cz">Cz <i></i></span><span class="brain-marker marker-c4">C4 <i></i></span>
+        <div class="brain-readout"><span class="readout-led"></span><span>NEURAL NETWORK</span><b>LIVE MODEL</b></div>
+        <div class="brain-note"><span class="note-symbol">⌁</span><span><b>EEG signal flow</b><small>interactive 3D visualization</small></span></div>
+        <span class="stage-caption">SCROLL TO EXPLORE <span>↓</span></span>
+      </div>
 
-  <section class="focus-section" id="focus">
-    <div class="section-header"><div><p class="eyebrow">02 / QUESTIONS I FOLLOW</p><h2>Three connected<br>directions.</h2></div><p>Research interests—not claims of finished systems. Each direction starts with a human interaction question and follows it down to the signal and model.</p></div>
-    <div class="focus-grid">
-      <article class="focus-card"><span class="focus-number">01 / EEG → ACTION</span><div class="focus-art art-motor" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><h3>Motor imagery</h3><p>How can EEG decoders generalize across people and support more dependable BCI interactions?</p><span class="focus-tags">EEG · decoding · adaptation</span></article>
-      <article class="focus-card"><span class="focus-number">02 / EEG → LANGUAGE</span><div class="focus-art art-speech" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><h3>Imagined speech</h3><p>What can non-invasive neural signals tell us about internally imagined words—and where are the limits?</p><span class="focus-tags">Speech BCI · signal quality · XAI</span></article>
-      <article class="focus-card"><span class="focus-number">03 / PERSON ↔ SYSTEM</span><div class="focus-art art-hci" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div><h3>Human–computer interaction</h3><p>How should intelligent systems respond to people, context and uncertainty in a real interaction?</p><span class="focus-tags">HCI · cognitive interaction · design</span></article>
-    </div>
-  </section>
+      <aside class="signal-panel" aria-label="Illustrative EEG signal panel">
+        <div class="panel-top"><span><i class="mini-wave">∿</i> EEG SIGNAL VIEW</span><span class="panel-menu">•••</span></div>
+        <div class="topomap-row"><div class="topomap-wrap"><span class="topomap-ear ear-left"></span><span class="topomap-ear ear-right"></span><div class="topomap"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div><span class="topomap-nose"></span></div><div class="band-legend"><span>Illustrative view</span><b><i class="legend-dot dot-cyan"></i> Neural activity</b><b><i class="legend-dot dot-violet"></i> Signal variation</b><small>Not experimental data</small></div></div>
+        <div class="panel-divider"></div>
+        <div class="signal-chart-head"><span>NEURAL SIGNAL</span><span>ILLUSTRATIVE · EEG</span></div>
+        <div class="signal-chart"><div class="chart-y-axis"><span>+</span><span>0</span><span>−</span></div><svg viewBox="0 0 460 120" preserveAspectRatio="none" role="img" aria-label="Animated illustrative EEG signal waveform"><defs><linearGradient id="wave-cyan" x1="0" x2="1"><stop stop-color="#31c8ff"/><stop offset="1" stop-color="#7a8dff"/></linearGradient><linearGradient id="wave-purple" x1="0" x2="1"><stop stop-color="#a15cff"/><stop offset="1" stop-color="#37dfff"/></linearGradient></defs><path class="wave-path wave-one" d="M0 56 C18 50 24 52 35 56 S51 80 62 61 S78 37 87 57 S100 78 111 55 S125 30 136 55 S148 84 162 57 S178 40 189 59 S203 78 215 53 S231 28 241 57 S255 83 267 59 S282 34 294 57 S308 79 320 54 S337 41 348 57 S362 69 375 56 S390 47 402 58 S430 70 460 55"/><path class="wave-path wave-two" d="M0 70 C20 72 24 59 38 68 S56 88 68 71 S81 49 94 68 S109 84 120 70 S139 55 150 68 S166 91 179 71 S195 54 207 69 S222 88 234 71 S253 51 266 69 S281 86 294 71 S310 56 325 69 S341 84 355 70 S375 57 387 69 S415 84 460 70"/></svg></div>
+        <div class="chart-axis"><span>0s</span><span>1s</span><span>2s</span><span>3s</span><span>4s</span></div>
+        <p class="panel-disclaimer">Concept visualization · no patient or research data</p>
+      </aside>
 
-  <section class="work-section" id="work">
-    <div class="section-header"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Built around<br>signals & people.</h2></div><a class="text-link" href="/projects/">All selected projects ↗</a></div>
-    <div class="work-grid">
-      <article class="project-card project-feature"><div class="project-top"><span>PLATFORM / NEUROTECH</span><span>01</span></div><div class="project-visual project-sync"><span class="sync-orbit orbit-one"></span><span class="sync-orbit orbit-two"></span><span class="sync-core">S<span>N</span></span><small>CONNECT · PROCESS · INTERACT</small></div><div class="project-copy"><p class="project-type">FOUNDER · CEO · CHIEF ARCHITECT</p><h3>SyncNeurons</h3><p>Building an AI and neurotechnology platform around connected data flows and biosignals. My role focuses on core neural networks, real-time EEG processing, explainable AI, platform strategy and zero-trust data architecture.</p><a href="https://syncneurons.com/" target="_blank" rel="noopener">Explore SyncNeurons ↗</a></div></article>
-      <article class="project-card"><div class="project-top"><span>APPLIED EEG / ANALYTICS</span><span>02</span></div><div class="project-visual eeg-visual"><span>EEG · EMOTIV</span><svg viewBox="0 0 600 170" role="img" aria-label="Decorative EEG waveform"><path d="M0 88H63l12-3 8 8 11-30 11 56 13-87 13 80 12-38 13 18h62l11-4 9 9 10-32 12 57 13-85 13 77 12-36 14 16h61l12-4 9 8 10-33 12 58 13-83 12 76 13-35 12 16h76"/></svg><span class="eeg-label">SIGNAL → FEATURES → REPORT</span></div><div class="project-copy"><p class="project-type">WHITE TREE INTERNATIONAL ACADEMY</p><h3>Automated EEG analysis</h3><p>Designed and developed an EEG analysis and reporting system for Emotiv data, combining signal processing, machine learning, a Python backend and an interactive dashboard.</p><a href="/projects/#eeg-analytics">Project details ↗</a></div></article>
-      <article class="project-card"><div class="project-top"><span>COGNITIVE INTERACTION</span><span>03</span></div><div class="project-visual cognition-visual"><span class="cog-ring ring-a"></span><span class="cog-ring ring-b"></span><span class="cog-node">01</span><span class="cog-node">02</span><span class="cog-node">03</span><span class="cog-center">PLAY<br>↔<br>LEARN</span></div><div class="project-copy"><p class="project-type">GAME DESIGN · ANALYTICS</p><h3>Cognitive assessment games</h3><p>A suite of interactive games for attention, memory, visual accuracy and reaction time, with Python-based performance analysis and reporting for a psychology center.</p><a href="/projects/#cognitive-games">Project details ↗</a></div></article>
-    </div>
-    <div class="project-footnote">Projects describe implementation work; they are not presented as clinical validation or diagnostic tools.</div>
-  </section>
+      <div class="hero-bottomline"><span>NEURAL SIGNALS <i>✳</i> INTELLIGENT SYSTEMS <i>✳</i> HUMAN-CENTERED DESIGN</span><span>01 <b>—</b> 05</span></div>
+    </section>
 
-  <section class="papers-section" id="papers"><div class="section-header"><div><p class="eyebrow">04 / SCHOLARLY WORK</p><h2>Three papers.<br>Clear status.</h2></div><p>My research profile spans neural interfaces and applied AI. Manuscript status is stated as it stands today.</p></div>
-    <div class="paper-list">
-      <article class="paper-row"><span class="paper-index">01</span><div><span class="paper-status status-review">UNDER REVIEW · MAJOR REVISION</span><h3>A Comparative Study on Convolutional and Transformer Architectures for Subject-Independent Motor Imagery Decoding</h3><p>Armin Abdollahi, Maliheh Sabeti, Reza Boostani</p><small>Journal of Neuroscience Methods · Elsevier</small></div></article>
-      <article class="paper-row"><span class="paper-index">02</span><div><span class="paper-status status-prep">IN PREPARATION · NOT YET SUBMITTED</span><h3>NSG-Net; A Neurospectral-Graph Network for Imagined Speech Decoding and Few-Shot Personalization</h3><p>Sarina Kasaiyan, Armin Abdollahi, Maliheh Sabeti, Reza Boostani, Saeid Sanei</p><small>Planned submission to Expert Systems with Applications · Elsevier</small></div></article>
-      <article class="paper-row"><span class="paper-index">03</span><div><span class="paper-status status-accepted">ACCEPTED</span><h3>Bone Age Estimation Through Hand X-Ray Analysis with Visual Transformer Model</h3><p>Armin Abdollahi, Maliheh Sabeti, Reza Boostani</p><small>Conference acceptance</small></div></article>
-    </div>
-  </section>
+    <section class="facts-ribbon" aria-label="Academic profile at a glance">
+      <article class="fact-item"><span class="fact-icon">◉</span><div><b>3</b><small>research papers</small></div><span class="fact-note">1 accepted · 1 under review<br>1 in preparation</span></article>
+      <article class="fact-item"><span class="fact-icon">⌂</span><div><b>20/20</b><small>master’s thesis defense</small></div><span class="fact-note">Artificial Intelligence<br>University of Tehran</span></article>
+      <article class="fact-item"><span class="fact-icon">⌘</span><div><b>Founder</b><small>SyncNeurons</small></div><span class="fact-note">CEO & Chief Architect<br>Neurotechnology platform</span></article>
+      <article class="fact-item fact-link"><span class="fact-icon">↗</span><div><b>Explore</b><small>selected projects</small></div><a href="#projects" aria-label="Explore selected projects">View work <span>→</span></a></article>
+    </section>
 
-  <section class="path-section" id="path"><div class="path-heading"><p class="eyebrow">05 / EXPERIENCE & EDUCATION</p><h2>Software roots.<br>Neural questions.</h2><p>Engineering training and applied research inform the way I approach neurotechnology: from data collection and pipelines to the details of the human-facing system.</p><figure class="profile-portrait"><img src="/images/Armin2.png" alt="Portrait of Armin Abdollahi" loading="lazy"><figcaption>ARMIN ABDOLLAHI <span>NEUROTECHNOLOGY · AI</span></figcaption></figure></div><div class="path-list">
-    <article><span class="path-date">NOV 2024 — NOW</span><div><h3>AI Programmer & Signal Processing Specialist</h3><b>White Tree International Academy</b><p>AI development and deployment; deep learning for NeuroAI and EEG/biosignals; cognitive data analysis; signal pipelines; research collaboration across computational neuroscience and BCI.</p></div></article>
-    <article><span class="path-date">2022 — 2025</span><div><h3>M.Sc. Artificial Intelligence</h3><b>University of Tehran</b><p>Graduated with distinction. Thesis on transformer-based deep learning models for brain–computer interfaces; defense score: 20/20.</p></div></article>
-    <article><span class="path-date">2018 — 2022</span><div><h3>B.Sc. Software Engineering</h3><b>University of Tabriz</b><p>Software engineering foundations and applied development projects.</p></div></article>
-  </div></section>
+    <section class="research-section section-wrap" id="research">
+      <div class="section-heading"><div><p class="section-overline">01 / RESEARCH & INTERESTS</p><h2>Brains, signals<br><span>and interaction.</span></h2></div><p class="section-intro">My work asks how we can build neural interfaces that are useful to people, grounded in signal processing and thoughtful about the limits of machine learning.</p></div>
+      <div class="research-cards">
+        <article class="research-card"><div class="research-card-head"><span>01</span><span>EEG → ACTION</span><i>↗</i></div><div class="research-visual visual-motor"><span class="sensor-ring"></span><span class="sensor-dot s1"></span><span class="sensor-dot s2"></span><span class="sensor-dot s3"></span><span class="sensor-dot s4"></span><span class="sensor-core">MI</span><span class="sensor-label label-c3">C3</span><span class="sensor-label label-cz">Cz</span><span class="sensor-label label-c4">C4</span></div><h3>Motor imagery</h3><p>Subject-independent decoding, model comparisons and the signal features that may help BCI systems generalize across people.</p><div class="card-tags"><span>BCI</span><span>EEG</span><span>Deep learning</span></div></article>
+        <article class="research-card"><div class="research-card-head"><span>02</span><span>EEG → LANGUAGE</span><i>↗</i></div><div class="research-visual visual-speech"><div class="speech-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="speech-bracket">[ <b>speech</b> ]</span></div><h3>Imagined speech</h3><p>Exploring non-invasive neural signals for silent communication, with care around signal quality and what a model can establish.</p><div class="card-tags"><span>Speech BCI</span><span>Signal processing</span><span>XAI</span></div></article>
+        <article class="research-card"><div class="research-card-head"><span>03</span><span>PERSON ↔ SYSTEM</span><i>↗</i></div><div class="research-visual visual-hci"><span class="hci-orbit hci-a"></span><span class="hci-orbit hci-b"></span><span class="hci-person">●</span><span class="hci-system">AI</span><span class="hci-arrow arrow-a">↗</span><span class="hci-arrow arrow-b">↙</span></div><h3>Human–computer interaction</h3><p>Human-centered neurotechnology: how adaptive systems should respond to context, people and uncertainty.</p><div class="card-tags"><span>HCI</span><span>Adaptive systems</span><span>Neurotechnology</span></div></article>
+      </div>
+    </section>
 
-  <section class="closing-section" id="contact"><div class="closing-orbit" aria-hidden="true"></div><p class="eyebrow">NEXT CHAPTER / PHD APPLICATIONS</p><h2>Let’s build interfaces<br>that <em>listen better.</em></h2><p>I’m interested in PhD opportunities at the intersection of BCI, EEG and HCI. If your group is working on neural interaction, adaptive interfaces or human-centered neurotechnology, I’d be glad to connect.</p><div class="closing-links"><a class="button button-light" href="mailto:armin.abdollahi.64@gmail.com">Email Armin ↗</a><a href="https://github.com/Armin-Abdollahi" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/armin-abdollahi/" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://scholar.google.com/citations?user=_lXpoGEAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar ↗</a></div><div class="sync-link"><span>ALSO BUILDING</span><a href="https://syncneurons.com/" target="_blank" rel="noopener">SyncNeurons <b>↗</b></a><a href="https://syncneurons.ir/" target="_blank" rel="noopener">فارسی</a></div></section>
-  <footer class="neuro-footer"><span>ARMIN ABDOLLAHI <i>·</i> BCI / EEG / HCI</span><span>Tehran, Iran</span><a href="#top">BACK TO TOP ↑</a></footer>
-</main>
+    <section class="projects-section section-wrap" id="projects">
+      <div class="section-heading"><div><p class="section-overline">02 / SELECTED WORK</p><h2>Research in practice.<br><span>Systems for people.</span></h2></div><a href="/projects/" class="section-link">All projects <span>↗</span></a></div>
+      <div class="projects-grid">
+        <article class="project-tile sync-tile"><div class="project-tile-top"><span>NEUROTECH PLATFORM</span><span>01 / 03</span></div><div class="sync-visual"><div class="sync-rings"><i></i><i></i><i></i><b>SN</b></div><span class="sync-flow flow-1"></span><span class="sync-flow flow-2"></span><small>CONNECT <i>·</i> PROCESS <i>·</i> INTERACT</small></div><div class="project-tile-copy"><p>FOUNDER · CEO · CHIEF ARCHITECT</p><h3>SyncNeurons</h3><p>Leading platform strategy and core neural-network architecture, with a focus on real-time EEG processing, explainable AI and zero-trust data architecture.</p><a href="https://syncneurons.com/" target="_blank" rel="noopener">Explore SyncNeurons ↗</a></div></article>
+        <article class="project-tile"><div class="project-tile-top"><span>APPLIED EEG / EMOTIV</span><span>02 / 03</span></div><div class="project-mini-visual eeg-mini"><span class="mini-label">SIGNAL <i>→</i> ANALYSIS <i>→</i> REPORT</span><svg viewBox="0 0 620 140" aria-hidden="true"><path d="M0 70h60l10-5 12 14 12-42 14 78 12-95 14 80 14-30 13 10h70l14-6 13 12 12-43 15 77 13-95 14 81 14-31 12 11h67l12-5 13 14 12-41 14 75 14-97 12 83 12-33 15 10h68l12-6 12 14 14-43 13 77 12-96 13 81 14-32 14 11h69"/></svg><span class="device-chip">EEG · INTERACTIVE REPORTING</span></div><div class="project-tile-copy"><p>WHITE TREE INTERNATIONAL ACADEMY</p><h3>Automated EEG analysis</h3><p>Built an Emotiv EEG analysis and reporting workflow with signal processing, machine learning, Python backend and interactive dashboard.</p><a href="/projects/#eeg-analytics">Project details ↗</a></div></article>
+        <article class="project-tile"><div class="project-tile-top"><span>COGNITIVE INTERACTION</span><span>03 / 03</span></div><div class="project-mini-visual games-mini"><div class="game-orbit"></div><div class="game-piece piece-1">01</div><div class="game-piece piece-2">02</div><div class="game-piece piece-3">03</div><div class="game-center">PLAY<br><i>↔</i><br>LEARN</div><span class="device-chip">INTERACTIVE TASKS · PERFORMANCE INSIGHTS</span></div><div class="project-tile-copy"><p>DESIGN · SOFTWARE · ANALYTICS</p><h3>Cognitive assessment games</h3><p>Designed interactive memory, attention and reaction-time games with Python-based performance analysis and reports.</p><a href="/projects/#cognitive-games">Project details ↗</a></div></article>
+      </div>
+      <p class="project-caveat"><span>ⓘ</span> Applied projects are described by scope and implementation; they are not presented as clinically validated diagnostic tools.</p>
+    </section>
+
+    <section class="publications-section section-wrap" id="publications">
+      <div class="section-heading"><div><p class="section-overline">03 / SCHOLARLY WORK</p><h2>Three papers.<br><span>Accurate status.</span></h2></div><p class="section-intro">The list reflects current manuscript stages. The imagined-speech paper is still in preparation and has not been submitted.</p></div>
+      <div class="publication-list">
+        <article class="publication-row"><span class="publication-number">01</span><div class="publication-content"><span class="publication-status status-review">UNDER REVIEW · MAJOR REVISION</span><h3>A Comparative Study on Convolutional and Transformer Architectures for Subject-Independent Motor Imagery Decoding</h3><p>Armin Abdollahi, Maliheh Sabeti, Reza Boostani</p><small>Journal of Neuroscience Methods · Elsevier</small></div><span class="publication-arrow">↗</span></article>
+        <article class="publication-row"><span class="publication-number">02</span><div class="publication-content"><span class="publication-status status-preparing">IN PREPARATION · NOT YET SUBMITTED</span><h3>NSG-Net; A Neurospectral-Graph Network for Imagined Speech Decoding and Few-Shot Personalization</h3><p>Sarina Kasaiyan, Armin Abdollahi, Maliheh Sabeti, Reza Boostani, Saeid Sanei</p><small>Planned submission: Expert Systems with Applications · Elsevier</small></div><span class="publication-arrow">↗</span></article>
+        <article class="publication-row"><span class="publication-number">03</span><div class="publication-content"><span class="publication-status status-accepted">ACCEPTED</span><h3>Bone Age Estimation Through Hand X-Ray Analysis with Visual Transformer Model</h3><p>Armin Abdollahi, Maliheh Sabeti, Reza Boostani</p><small>International Conference on Medicine and Artificial Intelligence in Health Promotion · Germany</small></div><a class="publication-arrow" href="https://github.com/Armin-Abdollahi/Bone-Age-Estimation" aria-label="Open Bone Age project">↗</a></article>
+      </div>
+      <a class="all-publications" href="/publications/">Publication details <span>↗</span></a>
+    </section>
+
+    <section class="journey-section section-wrap" id="journey">
+      <div class="section-heading"><div><p class="section-overline">04 / EXPERIENCE & EDUCATION</p><h2>Software roots.<br><span>Neural questions.</span></h2></div><p class="section-intro">Engineering foundations meet applied AI and biosignal work—connecting models, data pipelines and human-facing systems.</p></div>
+      <div class="journey-grid"><div class="journey-photo"><img src="/images/Armin2.png" alt="Armin Abdollahi" loading="lazy"><span>ARMIN ABDOLLAHI <i>·</i> BCI / EEG / AI</span></div><div class="journey-timeline">
+        <article><time>2024 — NOW</time><div><h3>AI Programmer & Signal Processing Specialist</h3><b>White Tree International Academy</b><p>Developing and deploying AI systems for NeuroAI and EEG/biosignal work, from data analysis and ML pipelines to backend integration.</p></div></article>
+        <article><time>2022 — 2025</time><div><h3>M.Sc. Artificial Intelligence</h3><b>University of Tehran</b><p>Graduated with distinction. Thesis: transformer-based deep learning models for brain–computer interfaces. Defense score: 20/20.</p></div></article>
+        <article><time>2018 — 2022</time><div><h3>B.Sc. Software Engineering</h3><b>University of Tabriz</b><p>Software engineering foundations and applied development projects.</p></div></article>
+      </div></div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="contact-grid" aria-hidden="true"></div><div class="contact-inner"><p class="section-overline">NEXT CHAPTER / PHD APPLICATIONS</p><h2>Let’s make neural<br>interaction <span>more human.</span></h2><p>I’m interested in PhD opportunities in BCI, EEG and HCI. If your group is exploring neural interfaces or human-centered neurotechnology, I’d be glad to connect.</p><a class="contact-button" href="mailto:armin.abdollahi.64@gmail.com">Start a conversation <span>↗</span></a><div class="contact-links"><a href="https://github.com/Armin-Abdollahi" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/armin-abdollahi/" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://scholar.google.com/citations?user=_lXpoGEAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar ↗</a><a href="https://syncneurons.com/" target="_blank" rel="noopener">SyncNeurons ↗</a></div></div><div class="contact-eeg" aria-hidden="true"><svg viewBox="0 0 1500 130" preserveAspectRatio="none"><path d="M0 65h250l24-3 17 8 16-33 17 63 18-100 19 86 17-32 22 11h230l20-5 20 11 17-37 19 74 18-105 20 87 18-34 20 10h238l21-4 18 10 18-38 19 75 17-105 20 89 17-35 20 9h263"/></svg></div></section>
+  </main>
+  <footer class="portfolio-footer"><a class="footer-brand" href="#home">ARMIN ABDOLLAHI <span>·</span> BCI / EEG / AI</a><span>Tehran, Iran</span><a href="#home">BACK TO TOP ↑</a></footer>
+</div>

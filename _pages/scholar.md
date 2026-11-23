@@ -2,7 +2,7 @@
 layout: research-dashboard
 title: "Research Profile"
 permalink: /scholar/
-author_profile: false
+author_profile: true
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/research-dashboard.css' | relative_url }}">
@@ -72,4 +72,5 @@ author_profile: false
   <footer class="sd-footer"><span>Armin Abdollahi · Research profile</span><span>Citation indexes are not reproduced here; <a href="https://scholar.google.com/citations?user=_lXpoGEAAAAJ&amp;hl=en" target="_blank" rel="noopener">see live Google Scholar profile ↗</a></span></footer>
 </div>
 
+{% include scholar-analytics.html %}
 <script src="{{ '/assets/js/research-dashboard.js' | relative_url }}" defer></script>

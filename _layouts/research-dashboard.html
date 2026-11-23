@@ -2,6 +2,9 @@
 layout: default
 ---
 
-<main id="research-dashboard-main" role="main">
-  {{ content }}
-</main>
+<div id="main" role="main" class="scholar-page-layout">
+  {% include sidebar.html %}
+  <div class="archive scholar-page-content">
+    {{ content }}
+  </div>
+</div>

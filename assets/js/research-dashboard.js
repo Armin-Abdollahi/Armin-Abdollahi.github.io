@@ -1,14 +1,21 @@
 (() => {
-  const dashboard = document.querySelector('.research-dashboard');
+  const dashboard = document.querySelector('.scholar-dashboard');
   if (!dashboard) return;
-  const wave = dashboard.querySelector('.rd-wave-line:not(.rd-wave-line-back)');
-  if (wave && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    const card = wave.closest('.rd-wave-card');
-    card?.addEventListener('pointermove', (event) => {
-      const bounds = card.getBoundingClientRect();
-      const offset = ((event.clientX - bounds.left) / bounds.width - 0.5) * 18;
-      wave.style.transform = `translateY(${offset.toFixed(1)}px)`;
+
+  const filters = dashboard.querySelectorAll('.sd-filter');
+  const works = dashboard.querySelectorAll('.sd-work-list li');
+
+  filters.forEach((button) => {
+    button.addEventListener('click', () => {
+      const filter = button.dataset.filter;
+      filters.forEach((item) => {
+        const active = item === button;
+        item.classList.toggle('is-active', active);
+        item.setAttribute('aria-pressed', String(active));
+      });
+      works.forEach((work) => {
+        work.hidden = filter !== 'all' && !work.dataset.topics.split(' ').includes(filter);
+      });
     });
-    card?.addEventListener('pointerleave', () => { wave.style.transform = ''; });
-  }
+  });
 })();
